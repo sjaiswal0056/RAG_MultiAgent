@@ -141,3 +141,29 @@ The backend includes a Dockerfile and Render Blueprint; the frontend is ready fo
 ## Security and data handling
 
 Secrets are environment variables and `.env` is ignored. Logs include request/case/workflow metadata but never keys. Inputs are synthetic. Unknown non-critical fields are tolerated, while required fields and numeric ranges are validated. The supplied public cases and policy are protected by baseline hashes during final verification.
+
+
+
+## Live Deployment
+
+### Frontend
+
+Streamlit application:
+
+https://YOUR-STREAMLIT-URL.streamlit.app
+
+### Backend API
+
+FastAPI backend:
+
+https://policy-aware-claim-api.onrender.com
+
+### API Documentation
+
+https://policy-aware-claim-api.onrender.com/docs
+
+### Health Check
+
+https://policy-aware-claim-api.onrender.com/health
+
+> Note: The backend uses Render's free tier, so the first request after inactivity may take some time while the service wakes up.
