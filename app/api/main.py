@@ -14,6 +14,12 @@ app = FastAPI(title="Policy-Aware Multi-Agent RAG Claim Decision Engine", versio
 app.include_router(router)
 
 
+@app.get("/")
+def root():
+    return {"message": "RAG Multi-Agent API is running"}
+
 @app.exception_handler(Exception)
 async def unhandled_exception(_request, exc: Exception) -> JSONResponse:
     return JSONResponse(status_code=500, content={"error": "Internal analysis error", "category": type(exc).__name__})
+
+
