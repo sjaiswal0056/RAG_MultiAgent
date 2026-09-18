@@ -1,0 +1,2037 @@
+[
+  {
+    "case_id": "CAND-001",
+    "decision": "ADMISSIBLE_WITH_LIMITS",
+    "confidence": 0.82,
+    "key_findings": [
+      {
+        "finding_id": "F-001",
+        "dimension": "coverage",
+        "finding": "The policy covers reasonable and customary hospitalization expenses when hospitalization is medically advised.",
+        "status": "SUPPORTED",
+        "evidence_chunk_ids": [
+          "policy-p007-what-we-cover-003-311a53f5",
+          "policy-p007-what-we-cover-013-5ae45cbf"
+        ],
+        "policy_pages": [
+          7
+        ],
+        "certainty": 0.9,
+        "missing_evidence": []
+      },
+      {
+        "finding_id": "F-002",
+        "dimension": "hospital_eligibility",
+        "finding": "The policy requires a Hospital to be registered or meet its minimum criteria; the case identifies a network provider and no contrary evidence.",
+        "status": "SUPPORTED",
+        "evidence_chunk_ids": [
+          "policy-p003-hospital-means-any-institution-estab-005-74550526",
+          "policy-p002-definitions-009-55f63d5c"
+        ],
+        "policy_pages": [
+          2,
+          3
+        ],
+        "certainty": 0.9,
+        "missing_evidence": []
+      },
+      {
+        "finding_id": "F-003",
+        "dimension": "expense_limits",
+        "finding": "Normal room expense is limited to 1% of Basic Sum Insured per day.",
+        "status": "SUPPORTED",
+        "evidence_chunk_ids": [
+          "policy-p007-what-we-cover-005-33342bca",
+          "policy-p008-pre-existing-diseases-will-not-be-co-005-116d1ace"
+        ],
+        "policy_pages": [
+          7,
+          8
+        ],
+        "certainty": 0.9,
+        "missing_evidence": []
+      },
+      {
+        "finding_id": "F-004",
+        "dimension": "expense_limits",
+        "finding": "Medical practitioner, consultant, anesthetist, and surgeon fees are limited to 25% of Sum Insured.",
+        "status": "SUPPORTED",
+        "evidence_chunk_ids": [
+          "policy-p007-what-we-cover-008-9f95a69b",
+          "policy-p007-what-we-cover-009-d74b4647"
+        ],
+        "policy_pages": [
+          7
+        ],
+        "certainty": 0.9,
+        "missing_evidence": []
+      },
+      {
+        "finding_id": "F-005",
+        "dimension": "expense_limits",
+        "finding": "Medicines, diagnostics, operation theatre and similar listed expenses are limited to 40% of Sum Insured.",
+        "status": "SUPPORTED",
+        "evidence_chunk_ids": [
+          "policy-p007-what-we-cover-009-d74b4647",
+          "policy-p008-pre-existing-diseases-will-not-be-co-005-116d1ace"
+        ],
+        "policy_pages": [
+          7,
+          8
+        ],
+        "certainty": 0.9,
+        "missing_evidence": []
+      },
+      {
+        "finding_id": "F-006",
+        "dimension": "expense_limits",
+        "finding": "Ambulance expense for an admissible claim is limited to the lower of 1% of Basic Sum Insured or INR 1,000.",
+        "status": "SUPPORTED",
+        "evidence_chunk_ids": [
+          "policy-p008-pre-existing-diseases-will-not-be-co-005-116d1ace",
+          "policy-p007-what-we-cover-005-33342bca"
+        ],
+        "policy_pages": [
+          7,
+          8
+        ],
+        "certainty": 0.9,
+        "missing_evidence": []
+      }
+    ],
+    "applicable_limits": [
+      {
+        "category": "normal_room_per_day",
+        "rule": "1% of Basic Sum Insured",
+        "amount_inr": 3000.0
+      },
+      {
+        "category": "practitioner_and_surgeon_fees",
+        "rule": "25% of Sum Insured",
+        "amount_inr": 75000.0
+      },
+      {
+        "category": "medicines_diagnostics_and_similar",
+        "rule": "40% of Sum Insured",
+        "amount_inr": 120000.0
+      },
+      {
+        "category": "ambulance_per_claim",
+        "rule": "lower of 1% of Basic Sum Insured or INR 1,000",
+        "amount_inr": 1000
+      }
+    ],
+    "deductions": [
+      {
+        "category": "room",
+        "billed_inr": 10000.0,
+        "allowed_inr": 6000.0,
+        "deduction_inr": 4000.0
+      },
+      {
+        "category": "ambulance",
+        "billed_inr": 1500.0,
+        "allowed_inr": 1000,
+        "deduction_inr": 500.0
+      }
+    ],
+    "estimated_payable_inr": 47000.0,
+    "missing_evidence": [],
+    "citations": [
+      {
+        "claim": "The policy covers reasonable and customary hospitalization expenses when hospitalization is medically advised.",
+        "source": "USGIC-CSCIndividualHealthInsurance_2017-2018.pdf",
+        "page": 7,
+        "section": "SCOPE OF COVER",
+        "chunk_id": "policy-p007-what-we-cover-003-311a53f5",
+        "excerpt": "WHAT WE COVER Your Hospitalization expenses on advice of a Medical Practitioner when You sustain any injury or contact any disease. We will pay Reasonable and Customary charges of the following Hospitalization expenses:"
+      },
+      {
+        "claim": "The policy requires a Hospital to be registered or meet its minimum criteria; the case identifies a network provider and no contrary evidence.",
+        "source": "USGIC-CSCIndividualHealthInsurance_2017-2018.pdf",
+        "page": 3,
+        "section": "DEFINITIONS",
+        "chunk_id": "policy-p003-hospital-means-any-institution-estab-005-74550526",
+        "excerpt": "Hospital means any institution established for in -patient care and Day Care Treatment of Illness and/or Injuries and which has been registered as a Hospital wit h the local authorities under the Clinical Establishments (Registration and Regulation) Act, 2010 or under the enactments specified under the Schedule of Section 56(1) of the said Act OR complies wi"
+      },
+      {
+        "claim": "Normal room expense is limited to 1% of Basic Sum Insured per day.",
+        "source": "USGIC-CSCIndividualHealthInsurance_2017-2018.pdf",
+        "page": 7,
+        "section": "SCOPE OF COVER",
+        "chunk_id": "policy-p007-what-we-cover-005-33342bca",
+        "excerpt": "a) Normal Room expenses: 1.0% of Basic Sum Insured."
+      },
+      {
+        "claim": "Medical practitioner, consultant, anesthetist, and surgeon fees are limited to 25% of Sum Insured.",
+        "source": "USGIC-CSCIndividualHealthInsurance_2017-2018.pdf",
+        "page": 7,
+        "section": "SCOPE OF COVER",
+        "chunk_id": "policy-p007-what-we-cover-008-9f95a69b",
+        "excerpt": "2. Medical Practitioner/ Anesthetist, Consultant fees, Surgeons fees and similar expenses subject to a limit of 25% of Sum Assured."
+      },
+      {
+        "claim": "Medicines, diagnostics, operation theatre and similar listed expenses are limited to 40% of Sum Insured.",
+        "source": "USGIC-CSCIndividualHealthInsurance_2017-2018.pdf",
+        "page": 7,
+        "section": "SCOPE OF COVER",
+        "chunk_id": "policy-p007-what-we-cover-009-d74b4647",
+        "excerpt": "3. Expenses on Anesthesia, Blood, Oxygen, Operation Th eatre, Surgical Appliances, Medicines and Drugs, Diagnostic Materials and X -ray, Dialysis, Chemotherapy, Radiotherapy, Cost of Pacemaker, Artificial Limbs, Cost of Organs and similar expenses subject to a limit of 40% Sum Insured ."
+      },
+      {
+        "claim": "Ambulance expense for an admissible claim is limited to the lower of 1% of Basic Sum Insured or INR 1,000.",
+        "source": "USGIC-CSCIndividualHealthInsurance_2017-2018.pdf",
+        "page": 8,
+        "section": "WHAT WE EXCLUDE",
+        "chunk_id": "policy-p008-pre-existing-diseases-will-not-be-co-005-116d1ace",
+        "excerpt": "b) Ambulance charges in connection with any admissible claim limited to 1.0% of the Basic Sum Insured or Rupees 1000/- whichever is less for each claim."
+      }
+    ],
+    "next_action": "Verify originals and settle subject to policy terms and remaining sum insured.",
+    "reason_code": "POLICY_SUPPORTED_WITH_LIMITS",
+    "validation": {
+      "status": "PASS",
+      "unsupported_claims": [],
+      "invalid_citations": [],
+      "numeric_mismatches": [],
+      "revision_required": false
+    },
+    "trace": [
+      {
+        "agent": "CaseAnalysisAgent",
+        "action": "normalize_case_and_plan",
+        "elapsed_ms": 0.05120000059832819,
+        "brief_outcome": "Created 7 focused retrieval queries",
+        "retrieval_query": null,
+        "result_count": null,
+        "evidence_ids": [],
+        "retry_count": 0
+      },
+      {
+        "agent": "PolicyEvidenceAgent",
+        "action": "hybrid_retrieve_fuse_rerank",
+        "elapsed_ms": 1.259199998457916,
+        "brief_outcome": "Retrieved evidence for coverage",
+        "retrieval_query": "hospitalization covered expenses inpatient Medical management",
+        "result_count": 10,
+        "evidence_ids": [
+          "policy-p007-what-we-cover-013-5ae45cbf",
+          "policy-p010-hospitalization-expenses-being-incur-021-68e16b0e",
+          "policy-p004-hospital-means-any-institution-estab-009-a3886f2a",
+          "policy-p005-pre-existing-diseases-means-any-cond-004-b2a3441c",
+          "policy-p007-what-we-cover-003-311a53f5",
+          "policy-p004-hospital-means-any-institution-estab-004-c747fb83",
+          "policy-p005-hospitalization-was-required-and-005-a605a238",
+          "policy-p005-hospitalization-was-required-and-010-85ba6837",
+          "policy-p003-domiciliary-treat-ment-means-medical-001-f7803b36",
+          "policy-p007-what-we-cover-010-bec7e714"
+        ],
+        "retry_count": 0
+      },
+      {
+        "agent": "PolicyEvidenceAgent",
+        "action": "hybrid_retrieve_fuse_rerank",
+        "elapsed_ms": 1.2271000014152378,
+        "brief_outcome": "Retrieved evidence for expense_limits",
+        "retrieval_query": "normal room boarding nursing per day Basic Sum Insured limit",
+        "result_count": 10,
+        "evidence_ids": [
+          "policy-p010-extensions-019-9cbac94e",
+          "policy-p007-what-we-cover-006-4cab0726",
+          "policy-p007-what-we-cover-005-33342bca",
+          "policy-p008-pre-existing-diseases-will-not-be-co-004-e7df43d0",
+          "policy-p007-what-we-cover-011-36365f6d",
+          "policy-p007-what-we-cover-004-7d1cdd8e",
+          "policy-p007-what-we-cover-012-85fb8baa",
+          "policy-p008-pre-existing-diseases-will-not-be-co-007-8b45c42d",
+          "policy-p005-hospitalization-was-required-and-010-85ba6837",
+          "policy-p008-pre-existing-diseases-will-not-be-co-005-116d1ace"
+        ],
+        "retry_count": 0
+      },
+      {
+        "agent": "PolicyEvidenceAgent",
+        "action": "hybrid_retrieve_fuse_rerank",
+        "elapsed_ms": 1.1381999975128565,
+        "brief_outcome": "Retrieved evidence for expense_limits",
+        "retrieval_query": "medical practitioner anesthetist consultant surgeon fees Sum Insured limit",
+        "result_count": 10,
+        "evidence_ids": [
+          "policy-p007-what-we-cover-008-9f95a69b",
+          "policy-p008-pre-existing-diseases-will-not-be-co-006-49606a9e",
+          "policy-p007-what-we-cover-006-4cab0726",
+          "policy-p007-what-we-cover-011-36365f6d",
+          "policy-p011-hospitalization-if-and-when-we-may-r-004-3930eeef",
+          "policy-p007-what-we-cover-009-d74b4647",
+          "policy-p010-extensions-019-9cbac94e",
+          "policy-p005-hospitalization-was-required-and-012-8a23f6a4",
+          "policy-p007-what-we-cover-005-33342bca",
+          "policy-p007-what-we-cover-010-bec7e714"
+        ],
+        "retry_count": 0
+      },
+      {
+        "agent": "PolicyEvidenceAgent",
+        "action": "hybrid_retrieve_fuse_rerank",
+        "elapsed_ms": 1.2280999981157947,
+        "brief_outcome": "Retrieved evidence for expense_limits",
+        "retrieval_query": "anesthesia operation theatre medicines drugs diagnostics x-ray Sum Insured limit",
+        "result_count": 10,
+        "evidence_ids": [
+          "policy-p007-what-we-cover-009-d74b4647",
+          "policy-p009-pre-existing-diseases-will-not-be-co-021-13803bf4",
+          "policy-p007-what-we-cover-006-4cab0726",
+          "policy-p007-what-we-cover-011-36365f6d",
+          "policy-p010-extensions-019-9cbac94e",
+          "policy-p011-hospitalization-if-and-when-we-may-r-004-3930eeef",
+          "policy-p005-hospitalization-was-required-and-012-8a23f6a4",
+          "policy-p007-what-we-cover-008-9f95a69b",
+          "policy-p007-what-we-cover-005-33342bca",
+          "policy-p002-definitions-007-179b21eb"
+        ],
+        "retry_count": 0
+      },
+      {
+        "agent": "PolicyEvidenceAgent",
+        "action": "hybrid_retrieve_fuse_rerank",
+        "elapsed_ms": 1.1844999971799552,
+        "brief_outcome": "Retrieved evidence for expense_limits",
+        "retrieval_query": "ambulance charges admissible claim Basic Sum Insured rupees limit",
+        "result_count": 10,
+        "evidence_ids": [
+          "policy-p008-pre-existing-diseases-will-not-be-co-005-116d1ace",
+          "policy-p010-extensions-019-9cbac94e",
+          "policy-p007-what-we-cover-006-4cab0726",
+          "policy-p007-what-we-cover-011-36365f6d",
+          "policy-p008-pre-existing-diseases-will-not-be-co-007-8b45c42d",
+          "policy-p002-definitions-006-b0692cf3",
+          "policy-p007-what-we-cover-012-85fb8baa",
+          "policy-p007-what-we-cover-005-33342bca",
+          "policy-p008-pre-existing-diseases-will-not-be-co-004-e7df43d0",
+          "policy-p011-hospitalization-if-and-when-we-may-r-004-3930eeef"
+        ],
+        "retry_count": 0
+      },
+      {
+        "agent": "PolicyEvidenceAgent",
+        "action": "hybrid_retrieve_fuse_rerank",
+        "elapsed_ms": 1.5041999977256637,
+        "brief_outcome": "Retrieved evidence for required_evidence",
+        "retrieval_query": "claims procedure bills receipts certificates information evidence medical practitioner hospital",
+        "result_count": 10,
+        "evidence_ids": [
+          "policy-p010-hospitalization-expenses-being-incur-021-68e16b0e",
+          "policy-p011-hospitalization-if-and-when-we-may-r-001-6d6031d4",
+          "policy-p004-hospital-means-any-institution-estab-007-258af735",
+          "policy-p005-hospitalization-was-required-and-013-98e1d18f",
+          "policy-p002-definitions-009-55f63d5c",
+          "policy-p010-claims-procedure-020-79770efd",
+          "policy-p004-hospital-means-any-institution-estab-002-936d1cd2",
+          "policy-p011-hospitalization-if-and-when-we-may-r-003-0eb56a1d",
+          "policy-p007-what-we-cover-010-bec7e714",
+          "policy-p007-what-we-cover-003-311a53f5"
+        ],
+        "retry_count": 0
+      },
+      {
+        "agent": "PolicyEvidenceAgent",
+        "action": "hybrid_retrieve_fuse_rerank",
+        "elapsed_ms": 1.4400000000023283,
+        "brief_outcome": "Retrieved evidence for hospital_eligibility",
+        "retrieval_query": "Hospital definition registered minimum criteria beds nursing medical practitioner operation theatre records",
+        "result_count": 10,
+        "evidence_ids": [
+          "policy-p003-hospital-means-any-institution-estab-005-74550526",
+          "policy-p002-definitions-009-55f63d5c",
+          "policy-p007-what-we-cover-013-5ae45cbf",
+          "policy-p004-hospital-means-any-institution-estab-004-c747fb83",
+          "policy-p003-hospitalization-means-admission-in-a-004-8bfbd255",
+          "policy-p004-hospital-means-any-institution-estab-002-936d1cd2",
+          "policy-p001-definitions-006-0e76ea91",
+          "policy-p007-what-we-cover-007-e43f04a8",
+          "policy-p007-what-we-cover-004-7d1cdd8e",
+          "policy-p007-what-we-cover-010-bec7e714"
+        ],
+        "retry_count": 0
+      },
+      {
+        "agent": "CoverageExclusionAgent",
+        "action": "apply_policy_evidence_contract",
+        "elapsed_ms": 1.0534000030020252,
+        "brief_outcome": "Produced 6 grounded findings",
+        "retrieval_query": null,
+        "result_count": null,
+        "evidence_ids": [
+          "policy-p002-definitions-009-55f63d5c",
+          "policy-p003-hospital-means-any-institution-estab-005-74550526",
+          "policy-p007-what-we-cover-003-311a53f5",
+          "policy-p007-what-we-cover-005-33342bca",
+          "policy-p007-what-we-cover-008-9f95a69b",
+          "policy-p007-what-we-cover-009-d74b4647",
+          "policy-p007-what-we-cover-013-5ae45cbf",
+          "policy-p008-pre-existing-diseases-will-not-be-co-005-116d1ace"
+        ],
+        "retry_count": 0
+      },
+      {
+        "agent": "DecisionAgent",
+        "action": "synthesize_structured_decision",
+        "elapsed_ms": 0.1841000012063887,
+        "brief_outcome": "Drafted ADMISSIBLE_WITH_LIMITS",
+        "retrieval_query": null,
+        "result_count": null,
+        "evidence_ids": [
+          "policy-p007-what-we-cover-003-311a53f5",
+          "policy-p003-hospital-means-any-institution-estab-005-74550526",
+          "policy-p007-what-we-cover-005-33342bca",
+          "policy-p007-what-we-cover-008-9f95a69b",
+          "policy-p007-what-we-cover-009-d74b4647",
+          "policy-p008-pre-existing-diseases-will-not-be-co-005-116d1ace"
+        ],
+        "retry_count": 0
+      },
+      {
+        "agent": "ValidationAgent",
+        "action": "validate_claims_citations_and_numbers",
+        "elapsed_ms": 0.21879999985685572,
+        "brief_outcome": "PASS",
+        "retrieval_query": null,
+        "result_count": null,
+        "evidence_ids": [],
+        "retry_count": 0
+      }
+    ],
+    "disclaimer": "Prototype decision support only; formal claim adjudication remains with the insurer."
+  },
+  {
+    "case_id": "CAND-002",
+    "decision": "NOT_ADMISSIBLE",
+    "confidence": 0.85,
+    "key_findings": [
+      {
+        "finding_id": "F-001",
+        "dimension": "coverage",
+        "finding": "The policy covers reasonable and customary hospitalization expenses when hospitalization is medically advised.",
+        "status": "SUPPORTED",
+        "evidence_chunk_ids": [
+          "policy-p007-what-we-cover-003-311a53f5",
+          "policy-p007-what-we-cover-013-5ae45cbf"
+        ],
+        "policy_pages": [
+          7
+        ],
+        "certainty": 0.9,
+        "missing_evidence": []
+      },
+      {
+        "finding_id": "F-002",
+        "dimension": "hospital_eligibility",
+        "finding": "The policy requires a Hospital to be registered or meet its minimum criteria; the case identifies a network provider and no contrary evidence.",
+        "status": "SUPPORTED",
+        "evidence_chunk_ids": [
+          "policy-p003-hospital-means-any-institution-estab-005-74550526",
+          "policy-p002-definitions-009-55f63d5c"
+        ],
+        "policy_pages": [
+          2,
+          3
+        ],
+        "certainty": 0.9,
+        "missing_evidence": []
+      },
+      {
+        "finding_id": "F-003",
+        "dimension": "initial_waiting_period",
+        "finding": "The claim falls within the 30-day waiting period and no qualifying prior continuous year is shown.",
+        "status": "NOT_SUPPORTED",
+        "evidence_chunk_ids": [
+          "policy-p009-pre-existing-diseases-will-not-be-co-001-2400566b",
+          "policy-p009-pre-existing-diseases-will-not-be-co-014-1f4c650b"
+        ],
+        "policy_pages": [
+          9
+        ],
+        "certainty": 0.9,
+        "missing_evidence": []
+      },
+      {
+        "finding_id": "F-004",
+        "dimension": "expense_limits",
+        "finding": "Normal room expense is limited to 1% of Basic Sum Insured per day.",
+        "status": "SUPPORTED",
+        "evidence_chunk_ids": [
+          "policy-p007-what-we-cover-005-33342bca",
+          "policy-p008-pre-existing-diseases-will-not-be-co-005-116d1ace"
+        ],
+        "policy_pages": [
+          7,
+          8
+        ],
+        "certainty": 0.9,
+        "missing_evidence": []
+      },
+      {
+        "finding_id": "F-005",
+        "dimension": "expense_limits",
+        "finding": "Medical practitioner, consultant, anesthetist, and surgeon fees are limited to 25% of Sum Insured.",
+        "status": "SUPPORTED",
+        "evidence_chunk_ids": [
+          "policy-p007-what-we-cover-008-9f95a69b",
+          "policy-p007-what-we-cover-009-d74b4647"
+        ],
+        "policy_pages": [
+          7
+        ],
+        "certainty": 0.9,
+        "missing_evidence": []
+      },
+      {
+        "finding_id": "F-006",
+        "dimension": "expense_limits",
+        "finding": "Medicines, diagnostics, operation theatre and similar listed expenses are limited to 40% of Sum Insured.",
+        "status": "SUPPORTED",
+        "evidence_chunk_ids": [
+          "policy-p007-what-we-cover-009-d74b4647",
+          "policy-p008-pre-existing-diseases-will-not-be-co-005-116d1ace"
+        ],
+        "policy_pages": [
+          7,
+          8
+        ],
+        "certainty": 0.9,
+        "missing_evidence": []
+      },
+      {
+        "finding_id": "F-007",
+        "dimension": "expense_limits",
+        "finding": "Ambulance expense for an admissible claim is limited to the lower of 1% of Basic Sum Insured or INR 1,000.",
+        "status": "SUPPORTED",
+        "evidence_chunk_ids": [
+          "policy-p008-pre-existing-diseases-will-not-be-co-005-116d1ace",
+          "policy-p007-what-we-cover-005-33342bca"
+        ],
+        "policy_pages": [
+          7,
+          8
+        ],
+        "certainty": 0.9,
+        "missing_evidence": []
+      }
+    ],
+    "applicable_limits": [],
+    "deductions": [],
+    "estimated_payable_inr": 0.0,
+    "missing_evidence": [],
+    "citations": [
+      {
+        "claim": "The policy covers reasonable and customary hospitalization expenses when hospitalization is medically advised.",
+        "source": "USGIC-CSCIndividualHealthInsurance_2017-2018.pdf",
+        "page": 7,
+        "section": "SCOPE OF COVER",
+        "chunk_id": "policy-p007-what-we-cover-003-311a53f5",
+        "excerpt": "WHAT WE COVER Your Hospitalization expenses on advice of a Medical Practitioner when You sustain any injury or contact any disease. We will pay Reasonable and Customary charges of the following Hospitalization expenses:"
+      },
+      {
+        "claim": "The policy requires a Hospital to be registered or meet its minimum criteria; the case identifies a network provider and no contrary evidence.",
+        "source": "USGIC-CSCIndividualHealthInsurance_2017-2018.pdf",
+        "page": 3,
+        "section": "DEFINITIONS",
+        "chunk_id": "policy-p003-hospital-means-any-institution-estab-005-74550526",
+        "excerpt": "Hospital means any institution established for in -patient care and Day Care Treatment of Illness and/or Injuries and which has been registered as a Hospital wit h the local authorities under the Clinical Establishments (Registration and Regulation) Act, 2010 or under the enactments specified under the Schedule of Section 56(1) of the said Act OR complies wi"
+      },
+      {
+        "claim": "The claim falls within the 30-day waiting period and no qualifying prior continuous year is shown.",
+        "source": "USGIC-CSCIndividualHealthInsurance_2017-2018.pdf",
+        "page": 9,
+        "section": "WHAT WE EXCLUDE",
+        "chunk_id": "policy-p009-pre-existing-diseases-will-not-be-co-001-2400566b",
+        "excerpt": "2. 30 days Waiting Period A waiting period of 30 days will apply to all claims unless: \uf0b7 You have been insured under this Policy continuously and without any break in the p revious Policy Year, or \uf0b7 You were insured continuously and without interruption for at least 1 year under any other Indian insurer\u201fs individual health insurance Policy for the reimbursem"
+      },
+      {
+        "claim": "Normal room expense is limited to 1% of Basic Sum Insured per day.",
+        "source": "USGIC-CSCIndividualHealthInsurance_2017-2018.pdf",
+        "page": 7,
+        "section": "SCOPE OF COVER",
+        "chunk_id": "policy-p007-what-we-cover-005-33342bca",
+        "excerpt": "a) Normal Room expenses: 1.0% of Basic Sum Insured."
+      },
+      {
+        "claim": "Medical practitioner, consultant, anesthetist, and surgeon fees are limited to 25% of Sum Insured.",
+        "source": "USGIC-CSCIndividualHealthInsurance_2017-2018.pdf",
+        "page": 7,
+        "section": "SCOPE OF COVER",
+        "chunk_id": "policy-p007-what-we-cover-008-9f95a69b",
+        "excerpt": "2. Medical Practitioner/ Anesthetist, Consultant fees, Surgeons fees and similar expenses subject to a limit of 25% of Sum Assured."
+      },
+      {
+        "claim": "Medicines, diagnostics, operation theatre and similar listed expenses are limited to 40% of Sum Insured.",
+        "source": "USGIC-CSCIndividualHealthInsurance_2017-2018.pdf",
+        "page": 7,
+        "section": "SCOPE OF COVER",
+        "chunk_id": "policy-p007-what-we-cover-009-d74b4647",
+        "excerpt": "3. Expenses on Anesthesia, Blood, Oxygen, Operation Th eatre, Surgical Appliances, Medicines and Drugs, Diagnostic Materials and X -ray, Dialysis, Chemotherapy, Radiotherapy, Cost of Pacemaker, Artificial Limbs, Cost of Organs and similar expenses subject to a limit of 40% Sum Insured ."
+      },
+      {
+        "claim": "Ambulance expense for an admissible claim is limited to the lower of 1% of Basic Sum Insured or INR 1,000.",
+        "source": "USGIC-CSCIndividualHealthInsurance_2017-2018.pdf",
+        "page": 8,
+        "section": "WHAT WE EXCLUDE",
+        "chunk_id": "policy-p008-pre-existing-diseases-will-not-be-co-005-116d1ace",
+        "excerpt": "b) Ambulance charges in connection with any admissible claim limited to 1.0% of the Basic Sum Insured or Rupees 1000/- whichever is less for each claim."
+      }
+    ],
+    "next_action": "Route for formal insurer review with the cited policy clauses.",
+    "reason_code": "POLICY_EXCLUSION_OR_WAITING_PERIOD",
+    "validation": {
+      "status": "PASS",
+      "unsupported_claims": [],
+      "invalid_citations": [],
+      "numeric_mismatches": [],
+      "revision_required": false
+    },
+    "trace": [
+      {
+        "agent": "CaseAnalysisAgent",
+        "action": "normalize_case_and_plan",
+        "elapsed_ms": 0.055599997722310945,
+        "brief_outcome": "Created 8 focused retrieval queries",
+        "retrieval_query": null,
+        "result_count": null,
+        "evidence_ids": [],
+        "retry_count": 0
+      },
+      {
+        "agent": "PolicyEvidenceAgent",
+        "action": "hybrid_retrieve_fuse_rerank",
+        "elapsed_ms": 1.410000000760192,
+        "brief_outcome": "Retrieved evidence for coverage",
+        "retrieval_query": "hospitalization covered expenses inpatient Medical management",
+        "result_count": 10,
+        "evidence_ids": [
+          "policy-p007-what-we-cover-013-5ae45cbf",
+          "policy-p010-hospitalization-expenses-being-incur-021-68e16b0e",
+          "policy-p004-hospital-means-any-institution-estab-009-a3886f2a",
+          "policy-p005-pre-existing-diseases-means-any-cond-004-b2a3441c",
+          "policy-p007-what-we-cover-003-311a53f5",
+          "policy-p004-hospital-means-any-institution-estab-004-c747fb83",
+          "policy-p005-hospitalization-was-required-and-005-a605a238",
+          "policy-p005-hospitalization-was-required-and-010-85ba6837",
+          "policy-p003-domiciliary-treat-ment-means-medical-001-f7803b36",
+          "policy-p007-what-we-cover-010-bec7e714"
+        ],
+        "retry_count": 0
+      },
+      {
+        "agent": "PolicyEvidenceAgent",
+        "action": "hybrid_retrieve_fuse_rerank",
+        "elapsed_ms": 1.326999998127576,
+        "brief_outcome": "Retrieved evidence for expense_limits",
+        "retrieval_query": "normal room boarding nursing per day Basic Sum Insured limit",
+        "result_count": 10,
+        "evidence_ids": [
+          "policy-p010-extensions-019-9cbac94e",
+          "policy-p007-what-we-cover-006-4cab0726",
+          "policy-p007-what-we-cover-005-33342bca",
+          "policy-p008-pre-existing-diseases-will-not-be-co-004-e7df43d0",
+          "policy-p007-what-we-cover-011-36365f6d",
+          "policy-p007-what-we-cover-004-7d1cdd8e",
+          "policy-p007-what-we-cover-012-85fb8baa",
+          "policy-p008-pre-existing-diseases-will-not-be-co-007-8b45c42d",
+          "policy-p005-hospitalization-was-required-and-010-85ba6837",
+          "policy-p008-pre-existing-diseases-will-not-be-co-005-116d1ace"
+        ],
+        "retry_count": 0
+      },
+      {
+        "agent": "PolicyEvidenceAgent",
+        "action": "hybrid_retrieve_fuse_rerank",
+        "elapsed_ms": 1.154800000222167,
+        "brief_outcome": "Retrieved evidence for expense_limits",
+        "retrieval_query": "medical practitioner anesthetist consultant surgeon fees Sum Insured limit",
+        "result_count": 10,
+        "evidence_ids": [
+          "policy-p007-what-we-cover-008-9f95a69b",
+          "policy-p008-pre-existing-diseases-will-not-be-co-006-49606a9e",
+          "policy-p007-what-we-cover-006-4cab0726",
+          "policy-p007-what-we-cover-011-36365f6d",
+          "policy-p011-hospitalization-if-and-when-we-may-r-004-3930eeef",
+          "policy-p007-what-we-cover-009-d74b4647",
+          "policy-p010-extensions-019-9cbac94e",
+          "policy-p005-hospitalization-was-required-and-012-8a23f6a4",
+          "policy-p007-what-we-cover-005-33342bca",
+          "policy-p007-what-we-cover-010-bec7e714"
+        ],
+        "retry_count": 0
+      },
+      {
+        "agent": "PolicyEvidenceAgent",
+        "action": "hybrid_retrieve_fuse_rerank",
+        "elapsed_ms": 1.1794000020017847,
+        "brief_outcome": "Retrieved evidence for expense_limits",
+        "retrieval_query": "anesthesia operation theatre medicines drugs diagnostics x-ray Sum Insured limit",
+        "result_count": 10,
+        "evidence_ids": [
+          "policy-p007-what-we-cover-009-d74b4647",
+          "policy-p009-pre-existing-diseases-will-not-be-co-021-13803bf4",
+          "policy-p007-what-we-cover-006-4cab0726",
+          "policy-p007-what-we-cover-011-36365f6d",
+          "policy-p010-extensions-019-9cbac94e",
+          "policy-p011-hospitalization-if-and-when-we-may-r-004-3930eeef",
+          "policy-p005-hospitalization-was-required-and-012-8a23f6a4",
+          "policy-p007-what-we-cover-008-9f95a69b",
+          "policy-p007-what-we-cover-005-33342bca",
+          "policy-p002-definitions-007-179b21eb"
+        ],
+        "retry_count": 0
+      },
+      {
+        "agent": "PolicyEvidenceAgent",
+        "action": "hybrid_retrieve_fuse_rerank",
+        "elapsed_ms": 1.1554999982763547,
+        "brief_outcome": "Retrieved evidence for expense_limits",
+        "retrieval_query": "ambulance charges admissible claim Basic Sum Insured rupees limit",
+        "result_count": 10,
+        "evidence_ids": [
+          "policy-p008-pre-existing-diseases-will-not-be-co-005-116d1ace",
+          "policy-p010-extensions-019-9cbac94e",
+          "policy-p007-what-we-cover-006-4cab0726",
+          "policy-p007-what-we-cover-011-36365f6d",
+          "policy-p008-pre-existing-diseases-will-not-be-co-007-8b45c42d",
+          "policy-p002-definitions-006-b0692cf3",
+          "policy-p007-what-we-cover-012-85fb8baa",
+          "policy-p007-what-we-cover-005-33342bca",
+          "policy-p008-pre-existing-diseases-will-not-be-co-004-e7df43d0",
+          "policy-p011-hospitalization-if-and-when-we-may-r-004-3930eeef"
+        ],
+        "retry_count": 0
+      },
+      {
+        "agent": "PolicyEvidenceAgent",
+        "action": "hybrid_retrieve_fuse_rerank",
+        "elapsed_ms": 1.4405000001715962,
+        "brief_outcome": "Retrieved evidence for required_evidence",
+        "retrieval_query": "claims procedure bills receipts certificates information evidence medical practitioner hospital",
+        "result_count": 10,
+        "evidence_ids": [
+          "policy-p010-hospitalization-expenses-being-incur-021-68e16b0e",
+          "policy-p011-hospitalization-if-and-when-we-may-r-001-6d6031d4",
+          "policy-p004-hospital-means-any-institution-estab-007-258af735",
+          "policy-p005-hospitalization-was-required-and-013-98e1d18f",
+          "policy-p002-definitions-009-55f63d5c",
+          "policy-p010-claims-procedure-020-79770efd",
+          "policy-p004-hospital-means-any-institution-estab-002-936d1cd2",
+          "policy-p011-hospitalization-if-and-when-we-may-r-003-0eb56a1d",
+          "policy-p007-what-we-cover-010-bec7e714",
+          "policy-p007-what-we-cover-003-311a53f5"
+        ],
+        "retry_count": 0
+      },
+      {
+        "agent": "PolicyEvidenceAgent",
+        "action": "hybrid_retrieve_fuse_rerank",
+        "elapsed_ms": 1.4501000005111564,
+        "brief_outcome": "Retrieved evidence for hospital_eligibility",
+        "retrieval_query": "Hospital definition registered minimum criteria beds nursing medical practitioner operation theatre records",
+        "result_count": 10,
+        "evidence_ids": [
+          "policy-p003-hospital-means-any-institution-estab-005-74550526",
+          "policy-p002-definitions-009-55f63d5c",
+          "policy-p007-what-we-cover-013-5ae45cbf",
+          "policy-p004-hospital-means-any-institution-estab-004-c747fb83",
+          "policy-p003-hospitalization-means-admission-in-a-004-8bfbd255",
+          "policy-p004-hospital-means-any-institution-estab-002-936d1cd2",
+          "policy-p001-definitions-006-0e76ea91",
+          "policy-p007-what-we-cover-007-e43f04a8",
+          "policy-p007-what-we-cover-004-7d1cdd8e",
+          "policy-p007-what-we-cover-010-bec7e714"
+        ],
+        "retry_count": 0
+      },
+      {
+        "agent": "PolicyEvidenceAgent",
+        "action": "hybrid_retrieve_fuse_rerank",
+        "elapsed_ms": 1.6350000005331822,
+        "brief_outcome": "Retrieved evidence for initial_waiting_period",
+        "retrieval_query": "30 days waiting period continuous previous insurer one year",
+        "result_count": 10,
+        "evidence_ids": [
+          "policy-p009-pre-existing-diseases-will-not-be-co-001-2400566b",
+          "policy-p008-pre-existing-diseases-will-not-be-co-001-6b7f5389",
+          "policy-p013-standard-terms-and-conditions-008-9b45c43b",
+          "policy-p009-pre-existing-diseases-will-not-be-co-014-1f4c650b",
+          "policy-p001-definitions-006-0e76ea91",
+          "policy-p013-standard-terms-and-conditions-010-99c8914a",
+          "policy-p008-pre-existing-diseases-will-not-be-co-006-49606a9e",
+          "policy-p005-hospitalization-was-required-and-009-3056c3d2",
+          "policy-p001-definitions-008-5e686c33",
+          "policy-p010-claims-procedure-020-79770efd"
+        ],
+        "retry_count": 0
+      },
+      {
+        "agent": "CoverageExclusionAgent",
+        "action": "apply_policy_evidence_contract",
+        "elapsed_ms": 1.8612999992910773,
+        "brief_outcome": "Produced 7 grounded findings",
+        "retrieval_query": null,
+        "result_count": null,
+        "evidence_ids": [
+          "policy-p002-definitions-009-55f63d5c",
+          "policy-p003-hospital-means-any-institution-estab-005-74550526",
+          "policy-p007-what-we-cover-003-311a53f5",
+          "policy-p007-what-we-cover-005-33342bca",
+          "policy-p007-what-we-cover-008-9f95a69b",
+          "policy-p007-what-we-cover-009-d74b4647",
+          "policy-p007-what-we-cover-013-5ae45cbf",
+          "policy-p008-pre-existing-diseases-will-not-be-co-005-116d1ace",
+          "policy-p009-pre-existing-diseases-will-not-be-co-001-2400566b",
+          "policy-p009-pre-existing-diseases-will-not-be-co-014-1f4c650b"
+        ],
+        "retry_count": 0
+      },
+      {
+        "agent": "DecisionAgent",
+        "action": "synthesize_structured_decision",
+        "elapsed_ms": 0.07820000246283598,
+        "brief_outcome": "Drafted NOT_ADMISSIBLE",
+        "retrieval_query": null,
+        "result_count": null,
+        "evidence_ids": [
+          "policy-p007-what-we-cover-003-311a53f5",
+          "policy-p003-hospital-means-any-institution-estab-005-74550526",
+          "policy-p009-pre-existing-diseases-will-not-be-co-001-2400566b",
+          "policy-p007-what-we-cover-005-33342bca",
+          "policy-p007-what-we-cover-008-9f95a69b",
+          "policy-p007-what-we-cover-009-d74b4647",
+          "policy-p008-pre-existing-diseases-will-not-be-co-005-116d1ace"
+        ],
+        "retry_count": 0
+      },
+      {
+        "agent": "ValidationAgent",
+        "action": "validate_claims_citations_and_numbers",
+        "elapsed_ms": 0.22389999867300503,
+        "brief_outcome": "PASS",
+        "retrieval_query": null,
+        "result_count": null,
+        "evidence_ids": [],
+        "retry_count": 0
+      }
+    ],
+    "disclaimer": "Prototype decision support only; formal claim adjudication remains with the insurer."
+  },
+  {
+    "case_id": "CAND-003",
+    "decision": "NEEDS_REVIEW",
+    "confidence": 0.67,
+    "key_findings": [
+      {
+        "finding_id": "F-001",
+        "dimension": "coverage",
+        "finding": "The policy covers reasonable and customary hospitalization expenses when hospitalization is medically advised.",
+        "status": "SUPPORTED",
+        "evidence_chunk_ids": [
+          "policy-p007-what-we-cover-003-311a53f5",
+          "policy-p007-what-we-cover-013-5ae45cbf"
+        ],
+        "policy_pages": [
+          7
+        ],
+        "certainty": 0.9,
+        "missing_evidence": []
+      },
+      {
+        "finding_id": "F-002",
+        "dimension": "hospital_eligibility",
+        "finding": "The supplied case evidence does not establish that the facility meets the policy definition of a Hospital.",
+        "status": "UNCERTAIN",
+        "evidence_chunk_ids": [
+          "policy-p003-hospital-means-any-institution-estab-005-74550526",
+          "policy-p002-definitions-009-55f63d5c"
+        ],
+        "policy_pages": [
+          2,
+          3
+        ],
+        "certainty": 0.35,
+        "missing_evidence": [
+          "Hospital registration or minimum-criteria evidence"
+        ]
+      },
+      {
+        "finding_id": "F-003",
+        "dimension": "expense_limits",
+        "finding": "Normal room expense is limited to 1% of Basic Sum Insured per day.",
+        "status": "SUPPORTED",
+        "evidence_chunk_ids": [
+          "policy-p007-what-we-cover-005-33342bca",
+          "policy-p008-pre-existing-diseases-will-not-be-co-005-116d1ace"
+        ],
+        "policy_pages": [
+          7,
+          8
+        ],
+        "certainty": 0.9,
+        "missing_evidence": []
+      },
+      {
+        "finding_id": "F-004",
+        "dimension": "expense_limits",
+        "finding": "Medical practitioner, consultant, anesthetist, and surgeon fees are limited to 25% of Sum Insured.",
+        "status": "SUPPORTED",
+        "evidence_chunk_ids": [
+          "policy-p007-what-we-cover-008-9f95a69b",
+          "policy-p007-what-we-cover-009-d74b4647"
+        ],
+        "policy_pages": [
+          7
+        ],
+        "certainty": 0.9,
+        "missing_evidence": []
+      },
+      {
+        "finding_id": "F-005",
+        "dimension": "expense_limits",
+        "finding": "Medicines, diagnostics, operation theatre and similar listed expenses are limited to 40% of Sum Insured.",
+        "status": "SUPPORTED",
+        "evidence_chunk_ids": [
+          "policy-p007-what-we-cover-009-d74b4647",
+          "policy-p008-pre-existing-diseases-will-not-be-co-005-116d1ace"
+        ],
+        "policy_pages": [
+          7,
+          8
+        ],
+        "certainty": 0.9,
+        "missing_evidence": []
+      },
+      {
+        "finding_id": "F-006",
+        "dimension": "expense_limits",
+        "finding": "Ambulance expense for an admissible claim is limited to the lower of 1% of Basic Sum Insured or INR 1,000.",
+        "status": "SUPPORTED",
+        "evidence_chunk_ids": [
+          "policy-p008-pre-existing-diseases-will-not-be-co-005-116d1ace",
+          "policy-p007-what-we-cover-005-33342bca"
+        ],
+        "policy_pages": [
+          7,
+          8
+        ],
+        "certainty": 0.9,
+        "missing_evidence": []
+      }
+    ],
+    "applicable_limits": [],
+    "deductions": [],
+    "estimated_payable_inr": null,
+    "missing_evidence": [
+      "Hospital registration or minimum-criteria evidence"
+    ],
+    "citations": [
+      {
+        "claim": "The policy covers reasonable and customary hospitalization expenses when hospitalization is medically advised.",
+        "source": "USGIC-CSCIndividualHealthInsurance_2017-2018.pdf",
+        "page": 7,
+        "section": "SCOPE OF COVER",
+        "chunk_id": "policy-p007-what-we-cover-003-311a53f5",
+        "excerpt": "WHAT WE COVER Your Hospitalization expenses on advice of a Medical Practitioner when You sustain any injury or contact any disease. We will pay Reasonable and Customary charges of the following Hospitalization expenses:"
+      },
+      {
+        "claim": "The supplied case evidence does not establish that the facility meets the policy definition of a Hospital.",
+        "source": "USGIC-CSCIndividualHealthInsurance_2017-2018.pdf",
+        "page": 3,
+        "section": "DEFINITIONS",
+        "chunk_id": "policy-p003-hospital-means-any-institution-estab-005-74550526",
+        "excerpt": "Hospital means any institution established for in -patient care and Day Care Treatment of Illness and/or Injuries and which has been registered as a Hospital wit h the local authorities under the Clinical Establishments (Registration and Regulation) Act, 2010 or under the enactments specified under the Schedule of Section 56(1) of the said Act OR complies wi"
+      },
+      {
+        "claim": "Normal room expense is limited to 1% of Basic Sum Insured per day.",
+        "source": "USGIC-CSCIndividualHealthInsurance_2017-2018.pdf",
+        "page": 7,
+        "section": "SCOPE OF COVER",
+        "chunk_id": "policy-p007-what-we-cover-005-33342bca",
+        "excerpt": "a) Normal Room expenses: 1.0% of Basic Sum Insured."
+      },
+      {
+        "claim": "Medical practitioner, consultant, anesthetist, and surgeon fees are limited to 25% of Sum Insured.",
+        "source": "USGIC-CSCIndividualHealthInsurance_2017-2018.pdf",
+        "page": 7,
+        "section": "SCOPE OF COVER",
+        "chunk_id": "policy-p007-what-we-cover-008-9f95a69b",
+        "excerpt": "2. Medical Practitioner/ Anesthetist, Consultant fees, Surgeons fees and similar expenses subject to a limit of 25% of Sum Assured."
+      },
+      {
+        "claim": "Medicines, diagnostics, operation theatre and similar listed expenses are limited to 40% of Sum Insured.",
+        "source": "USGIC-CSCIndividualHealthInsurance_2017-2018.pdf",
+        "page": 7,
+        "section": "SCOPE OF COVER",
+        "chunk_id": "policy-p007-what-we-cover-009-d74b4647",
+        "excerpt": "3. Expenses on Anesthesia, Blood, Oxygen, Operation Th eatre, Surgical Appliances, Medicines and Drugs, Diagnostic Materials and X -ray, Dialysis, Chemotherapy, Radiotherapy, Cost of Pacemaker, Artificial Limbs, Cost of Organs and similar expenses subject to a limit of 40% Sum Insured ."
+      },
+      {
+        "claim": "Ambulance expense for an admissible claim is limited to the lower of 1% of Basic Sum Insured or INR 1,000.",
+        "source": "USGIC-CSCIndividualHealthInsurance_2017-2018.pdf",
+        "page": 8,
+        "section": "WHAT WE EXCLUDE",
+        "chunk_id": "policy-p008-pre-existing-diseases-will-not-be-co-005-116d1ace",
+        "excerpt": "b) Ambulance charges in connection with any admissible claim limited to 1.0% of the Basic Sum Insured or Rupees 1000/- whichever is less for each claim."
+      }
+    ],
+    "next_action": "Obtain the listed missing evidence and rerun the analysis.",
+    "reason_code": "INSUFFICIENT_EVIDENCE",
+    "validation": {
+      "status": "PASS",
+      "unsupported_claims": [],
+      "invalid_citations": [],
+      "numeric_mismatches": [],
+      "revision_required": false
+    },
+    "trace": [
+      {
+        "agent": "CaseAnalysisAgent",
+        "action": "normalize_case_and_plan",
+        "elapsed_ms": 0.05149999924469739,
+        "brief_outcome": "Created 7 focused retrieval queries",
+        "retrieval_query": null,
+        "result_count": null,
+        "evidence_ids": [],
+        "retry_count": 0
+      },
+      {
+        "agent": "PolicyEvidenceAgent",
+        "action": "hybrid_retrieve_fuse_rerank",
+        "elapsed_ms": 1.9362000020919368,
+        "brief_outcome": "Retrieved evidence for coverage",
+        "retrieval_query": "hospitalization covered expenses inpatient Medical management",
+        "result_count": 10,
+        "evidence_ids": [
+          "policy-p007-what-we-cover-013-5ae45cbf",
+          "policy-p010-hospitalization-expenses-being-incur-021-68e16b0e",
+          "policy-p004-hospital-means-any-institution-estab-009-a3886f2a",
+          "policy-p005-pre-existing-diseases-means-any-cond-004-b2a3441c",
+          "policy-p007-what-we-cover-003-311a53f5",
+          "policy-p004-hospital-means-any-institution-estab-004-c747fb83",
+          "policy-p005-hospitalization-was-required-and-005-a605a238",
+          "policy-p005-hospitalization-was-required-and-010-85ba6837",
+          "policy-p003-domiciliary-treat-ment-means-medical-001-f7803b36",
+          "policy-p007-what-we-cover-010-bec7e714"
+        ],
+        "retry_count": 0
+      },
+      {
+        "agent": "PolicyEvidenceAgent",
+        "action": "hybrid_retrieve_fuse_rerank",
+        "elapsed_ms": 2.598200000647921,
+        "brief_outcome": "Retrieved evidence for expense_limits",
+        "retrieval_query": "normal room boarding nursing per day Basic Sum Insured limit",
+        "result_count": 10,
+        "evidence_ids": [
+          "policy-p010-extensions-019-9cbac94e",
+          "policy-p007-what-we-cover-006-4cab0726",
+          "policy-p007-what-we-cover-005-33342bca",
+          "policy-p008-pre-existing-diseases-will-not-be-co-004-e7df43d0",
+          "policy-p007-what-we-cover-011-36365f6d",
+          "policy-p007-what-we-cover-004-7d1cdd8e",
+          "policy-p007-what-we-cover-012-85fb8baa",
+          "policy-p008-pre-existing-diseases-will-not-be-co-007-8b45c42d",
+          "policy-p005-hospitalization-was-required-and-010-85ba6837",
+          "policy-p008-pre-existing-diseases-will-not-be-co-005-116d1ace"
+        ],
+        "retry_count": 0
+      },
+      {
+        "agent": "PolicyEvidenceAgent",
+        "action": "hybrid_retrieve_fuse_rerank",
+        "elapsed_ms": 1.5346000000135973,
+        "brief_outcome": "Retrieved evidence for expense_limits",
+        "retrieval_query": "medical practitioner anesthetist consultant surgeon fees Sum Insured limit",
+        "result_count": 10,
+        "evidence_ids": [
+          "policy-p007-what-we-cover-008-9f95a69b",
+          "policy-p008-pre-existing-diseases-will-not-be-co-006-49606a9e",
+          "policy-p007-what-we-cover-006-4cab0726",
+          "policy-p007-what-we-cover-011-36365f6d",
+          "policy-p011-hospitalization-if-and-when-we-may-r-004-3930eeef",
+          "policy-p007-what-we-cover-009-d74b4647",
+          "policy-p010-extensions-019-9cbac94e",
+          "policy-p005-hospitalization-was-required-and-012-8a23f6a4",
+          "policy-p007-what-we-cover-005-33342bca",
+          "policy-p007-what-we-cover-010-bec7e714"
+        ],
+        "retry_count": 0
+      },
+      {
+        "agent": "PolicyEvidenceAgent",
+        "action": "hybrid_retrieve_fuse_rerank",
+        "elapsed_ms": 1.4857999995001592,
+        "brief_outcome": "Retrieved evidence for expense_limits",
+        "retrieval_query": "anesthesia operation theatre medicines drugs diagnostics x-ray Sum Insured limit",
+        "result_count": 10,
+        "evidence_ids": [
+          "policy-p007-what-we-cover-009-d74b4647",
+          "policy-p009-pre-existing-diseases-will-not-be-co-021-13803bf4",
+          "policy-p007-what-we-cover-006-4cab0726",
+          "policy-p007-what-we-cover-011-36365f6d",
+          "policy-p010-extensions-019-9cbac94e",
+          "policy-p011-hospitalization-if-and-when-we-may-r-004-3930eeef",
+          "policy-p005-hospitalization-was-required-and-012-8a23f6a4",
+          "policy-p007-what-we-cover-008-9f95a69b",
+          "policy-p007-what-we-cover-005-33342bca",
+          "policy-p002-definitions-007-179b21eb"
+        ],
+        "retry_count": 0
+      },
+      {
+        "agent": "PolicyEvidenceAgent",
+        "action": "hybrid_retrieve_fuse_rerank",
+        "elapsed_ms": 1.4100999978836626,
+        "brief_outcome": "Retrieved evidence for expense_limits",
+        "retrieval_query": "ambulance charges admissible claim Basic Sum Insured rupees limit",
+        "result_count": 10,
+        "evidence_ids": [
+          "policy-p008-pre-existing-diseases-will-not-be-co-005-116d1ace",
+          "policy-p010-extensions-019-9cbac94e",
+          "policy-p007-what-we-cover-006-4cab0726",
+          "policy-p007-what-we-cover-011-36365f6d",
+          "policy-p008-pre-existing-diseases-will-not-be-co-007-8b45c42d",
+          "policy-p002-definitions-006-b0692cf3",
+          "policy-p007-what-we-cover-012-85fb8baa",
+          "policy-p007-what-we-cover-005-33342bca",
+          "policy-p008-pre-existing-diseases-will-not-be-co-004-e7df43d0",
+          "policy-p011-hospitalization-if-and-when-we-may-r-004-3930eeef"
+        ],
+        "retry_count": 0
+      },
+      {
+        "agent": "PolicyEvidenceAgent",
+        "action": "hybrid_retrieve_fuse_rerank",
+        "elapsed_ms": 1.7752999992808327,
+        "brief_outcome": "Retrieved evidence for required_evidence",
+        "retrieval_query": "claims procedure bills receipts certificates information evidence medical practitioner hospital",
+        "result_count": 10,
+        "evidence_ids": [
+          "policy-p010-hospitalization-expenses-being-incur-021-68e16b0e",
+          "policy-p011-hospitalization-if-and-when-we-may-r-001-6d6031d4",
+          "policy-p004-hospital-means-any-institution-estab-007-258af735",
+          "policy-p005-hospitalization-was-required-and-013-98e1d18f",
+          "policy-p002-definitions-009-55f63d5c",
+          "policy-p010-claims-procedure-020-79770efd",
+          "policy-p004-hospital-means-any-institution-estab-002-936d1cd2",
+          "policy-p011-hospitalization-if-and-when-we-may-r-003-0eb56a1d",
+          "policy-p007-what-we-cover-010-bec7e714",
+          "policy-p007-what-we-cover-003-311a53f5"
+        ],
+        "retry_count": 0
+      },
+      {
+        "agent": "PolicyEvidenceAgent",
+        "action": "hybrid_retrieve_fuse_rerank",
+        "elapsed_ms": 1.6868000020622276,
+        "brief_outcome": "Retrieved evidence for hospital_eligibility",
+        "retrieval_query": "Hospital definition registered minimum criteria beds nursing medical practitioner operation theatre records",
+        "result_count": 10,
+        "evidence_ids": [
+          "policy-p003-hospital-means-any-institution-estab-005-74550526",
+          "policy-p002-definitions-009-55f63d5c",
+          "policy-p007-what-we-cover-013-5ae45cbf",
+          "policy-p004-hospital-means-any-institution-estab-004-c747fb83",
+          "policy-p003-hospitalization-means-admission-in-a-004-8bfbd255",
+          "policy-p004-hospital-means-any-institution-estab-002-936d1cd2",
+          "policy-p001-definitions-006-0e76ea91",
+          "policy-p007-what-we-cover-007-e43f04a8",
+          "policy-p007-what-we-cover-004-7d1cdd8e",
+          "policy-p007-what-we-cover-010-bec7e714"
+        ],
+        "retry_count": 0
+      },
+      {
+        "agent": "CoverageExclusionAgent",
+        "action": "apply_policy_evidence_contract",
+        "elapsed_ms": 1.4714999997522682,
+        "brief_outcome": "Produced 6 grounded findings",
+        "retrieval_query": null,
+        "result_count": null,
+        "evidence_ids": [
+          "policy-p002-definitions-009-55f63d5c",
+          "policy-p003-hospital-means-any-institution-estab-005-74550526",
+          "policy-p007-what-we-cover-003-311a53f5",
+          "policy-p007-what-we-cover-005-33342bca",
+          "policy-p007-what-we-cover-008-9f95a69b",
+          "policy-p007-what-we-cover-009-d74b4647",
+          "policy-p007-what-we-cover-013-5ae45cbf",
+          "policy-p008-pre-existing-diseases-will-not-be-co-005-116d1ace"
+        ],
+        "retry_count": 0
+      },
+      {
+        "agent": "DecisionAgent",
+        "action": "synthesize_structured_decision",
+        "elapsed_ms": 0.1111999990826007,
+        "brief_outcome": "Drafted NEEDS_REVIEW",
+        "retrieval_query": null,
+        "result_count": null,
+        "evidence_ids": [
+          "policy-p007-what-we-cover-003-311a53f5",
+          "policy-p003-hospital-means-any-institution-estab-005-74550526",
+          "policy-p007-what-we-cover-005-33342bca",
+          "policy-p007-what-we-cover-008-9f95a69b",
+          "policy-p007-what-we-cover-009-d74b4647",
+          "policy-p008-pre-existing-diseases-will-not-be-co-005-116d1ace"
+        ],
+        "retry_count": 0
+      },
+      {
+        "agent": "ValidationAgent",
+        "action": "validate_claims_citations_and_numbers",
+        "elapsed_ms": 0.29779999749735,
+        "brief_outcome": "PASS",
+        "retrieval_query": null,
+        "result_count": null,
+        "evidence_ids": [],
+        "retry_count": 0
+      }
+    ],
+    "disclaimer": "Prototype decision support only; formal claim adjudication remains with the insurer."
+  },
+  {
+    "case_id": "CAND-004",
+    "decision": "NOT_ADMISSIBLE",
+    "confidence": 0.85,
+    "key_findings": [
+      {
+        "finding_id": "F-001",
+        "dimension": "coverage",
+        "finding": "The policy covers reasonable and customary hospitalization expenses when hospitalization is medically advised.",
+        "status": "SUPPORTED",
+        "evidence_chunk_ids": [
+          "policy-p007-what-we-cover-003-311a53f5",
+          "policy-p007-what-we-cover-013-5ae45cbf"
+        ],
+        "policy_pages": [
+          7
+        ],
+        "certainty": 0.9,
+        "missing_evidence": []
+      },
+      {
+        "finding_id": "F-002",
+        "dimension": "hospital_eligibility",
+        "finding": "The policy requires a Hospital to be registered or meet its minimum criteria; the case identifies a network provider and no contrary evidence.",
+        "status": "SUPPORTED",
+        "evidence_chunk_ids": [
+          "policy-p003-hospital-means-any-institution-estab-005-74550526",
+          "policy-p002-definitions-009-55f63d5c"
+        ],
+        "policy_pages": [
+          2,
+          3
+        ],
+        "certainty": 0.9,
+        "missing_evidence": []
+      },
+      {
+        "finding_id": "F-003",
+        "dimension": "experimental_exclusion",
+        "finding": "The case identifies the treatment as experimental/unproven, which is outside supported approved treatment.",
+        "status": "NOT_SUPPORTED",
+        "evidence_chunk_ids": [
+          "policy-p006-hospitalization-was-required-and-001-82084721",
+          "policy-p010-pre-existing-diseases-will-not-be-co-003-84746330"
+        ],
+        "policy_pages": [
+          6,
+          10
+        ],
+        "certainty": 0.9,
+        "missing_evidence": []
+      },
+      {
+        "finding_id": "F-004",
+        "dimension": "expense_limits",
+        "finding": "Normal room expense is limited to 1% of Basic Sum Insured per day.",
+        "status": "SUPPORTED",
+        "evidence_chunk_ids": [
+          "policy-p007-what-we-cover-005-33342bca",
+          "policy-p008-pre-existing-diseases-will-not-be-co-005-116d1ace"
+        ],
+        "policy_pages": [
+          7,
+          8
+        ],
+        "certainty": 0.9,
+        "missing_evidence": []
+      },
+      {
+        "finding_id": "F-005",
+        "dimension": "expense_limits",
+        "finding": "Medical practitioner, consultant, anesthetist, and surgeon fees are limited to 25% of Sum Insured.",
+        "status": "SUPPORTED",
+        "evidence_chunk_ids": [
+          "policy-p007-what-we-cover-008-9f95a69b",
+          "policy-p007-what-we-cover-009-d74b4647"
+        ],
+        "policy_pages": [
+          7
+        ],
+        "certainty": 0.9,
+        "missing_evidence": []
+      },
+      {
+        "finding_id": "F-006",
+        "dimension": "expense_limits",
+        "finding": "Medicines, diagnostics, operation theatre and similar listed expenses are limited to 40% of Sum Insured.",
+        "status": "SUPPORTED",
+        "evidence_chunk_ids": [
+          "policy-p007-what-we-cover-009-d74b4647",
+          "policy-p008-pre-existing-diseases-will-not-be-co-005-116d1ace"
+        ],
+        "policy_pages": [
+          7,
+          8
+        ],
+        "certainty": 0.9,
+        "missing_evidence": []
+      },
+      {
+        "finding_id": "F-007",
+        "dimension": "expense_limits",
+        "finding": "Ambulance expense for an admissible claim is limited to the lower of 1% of Basic Sum Insured or INR 1,000.",
+        "status": "SUPPORTED",
+        "evidence_chunk_ids": [
+          "policy-p008-pre-existing-diseases-will-not-be-co-005-116d1ace",
+          "policy-p007-what-we-cover-005-33342bca"
+        ],
+        "policy_pages": [
+          7,
+          8
+        ],
+        "certainty": 0.9,
+        "missing_evidence": []
+      }
+    ],
+    "applicable_limits": [],
+    "deductions": [],
+    "estimated_payable_inr": 0.0,
+    "missing_evidence": [],
+    "citations": [
+      {
+        "claim": "The policy covers reasonable and customary hospitalization expenses when hospitalization is medically advised.",
+        "source": "USGIC-CSCIndividualHealthInsurance_2017-2018.pdf",
+        "page": 7,
+        "section": "SCOPE OF COVER",
+        "chunk_id": "policy-p007-what-we-cover-003-311a53f5",
+        "excerpt": "WHAT WE COVER Your Hospitalization expenses on advice of a Medical Practitioner when You sustain any injury or contact any disease. We will pay Reasonable and Customary charges of the following Hospitalization expenses:"
+      },
+      {
+        "claim": "The policy requires a Hospital to be registered or meet its minimum criteria; the case identifies a network provider and no contrary evidence.",
+        "source": "USGIC-CSCIndividualHealthInsurance_2017-2018.pdf",
+        "page": 3,
+        "section": "DEFINITIONS",
+        "chunk_id": "policy-p003-hospital-means-any-institution-estab-005-74550526",
+        "excerpt": "Hospital means any institution established for in -patient care and Day Care Treatment of Illness and/or Injuries and which has been registered as a Hospital wit h the local authorities under the Clinical Establishments (Registration and Regulation) Act, 2010 or under the enactments specified under the Schedule of Section 56(1) of the said Act OR complies wi"
+      },
+      {
+        "claim": "The case identifies the treatment as experimental/unproven, which is outside supported approved treatment.",
+        "source": "USGIC-CSCIndividualHealthInsurance_2017-2018.pdf",
+        "page": 6,
+        "section": "DEFINITIONS",
+        "chunk_id": "policy-p006-hospitalization-was-required-and-001-82084721",
+        "excerpt": "Unproven/Experimental Treatment means a treatment, including drug Experimental therapy, which is not based on established medical practice in India, is treatment experimental or unproven."
+      },
+      {
+        "claim": "Normal room expense is limited to 1% of Basic Sum Insured per day.",
+        "source": "USGIC-CSCIndividualHealthInsurance_2017-2018.pdf",
+        "page": 7,
+        "section": "SCOPE OF COVER",
+        "chunk_id": "policy-p007-what-we-cover-005-33342bca",
+        "excerpt": "a) Normal Room expenses: 1.0% of Basic Sum Insured."
+      },
+      {
+        "claim": "Medical practitioner, consultant, anesthetist, and surgeon fees are limited to 25% of Sum Insured.",
+        "source": "USGIC-CSCIndividualHealthInsurance_2017-2018.pdf",
+        "page": 7,
+        "section": "SCOPE OF COVER",
+        "chunk_id": "policy-p007-what-we-cover-008-9f95a69b",
+        "excerpt": "2. Medical Practitioner/ Anesthetist, Consultant fees, Surgeons fees and similar expenses subject to a limit of 25% of Sum Assured."
+      },
+      {
+        "claim": "Medicines, diagnostics, operation theatre and similar listed expenses are limited to 40% of Sum Insured.",
+        "source": "USGIC-CSCIndividualHealthInsurance_2017-2018.pdf",
+        "page": 7,
+        "section": "SCOPE OF COVER",
+        "chunk_id": "policy-p007-what-we-cover-009-d74b4647",
+        "excerpt": "3. Expenses on Anesthesia, Blood, Oxygen, Operation Th eatre, Surgical Appliances, Medicines and Drugs, Diagnostic Materials and X -ray, Dialysis, Chemotherapy, Radiotherapy, Cost of Pacemaker, Artificial Limbs, Cost of Organs and similar expenses subject to a limit of 40% Sum Insured ."
+      },
+      {
+        "claim": "Ambulance expense for an admissible claim is limited to the lower of 1% of Basic Sum Insured or INR 1,000.",
+        "source": "USGIC-CSCIndividualHealthInsurance_2017-2018.pdf",
+        "page": 8,
+        "section": "WHAT WE EXCLUDE",
+        "chunk_id": "policy-p008-pre-existing-diseases-will-not-be-co-005-116d1ace",
+        "excerpt": "b) Ambulance charges in connection with any admissible claim limited to 1.0% of the Basic Sum Insured or Rupees 1000/- whichever is less for each claim."
+      }
+    ],
+    "next_action": "Route for formal insurer review with the cited policy clauses.",
+    "reason_code": "POLICY_EXCLUSION_OR_WAITING_PERIOD",
+    "validation": {
+      "status": "PASS",
+      "unsupported_claims": [],
+      "invalid_citations": [],
+      "numeric_mismatches": [],
+      "revision_required": false
+    },
+    "trace": [
+      {
+        "agent": "CaseAnalysisAgent",
+        "action": "normalize_case_and_plan",
+        "elapsed_ms": 0.07370000093942508,
+        "brief_outcome": "Created 8 focused retrieval queries",
+        "retrieval_query": null,
+        "result_count": null,
+        "evidence_ids": [],
+        "retry_count": 0
+      },
+      {
+        "agent": "PolicyEvidenceAgent",
+        "action": "hybrid_retrieve_fuse_rerank",
+        "elapsed_ms": 1.3646000006701797,
+        "brief_outcome": "Retrieved evidence for coverage",
+        "retrieval_query": "hospitalization covered expenses inpatient Unproven therapy",
+        "result_count": 10,
+        "evidence_ids": [
+          "policy-p007-what-we-cover-013-5ae45cbf",
+          "policy-p006-hospitalization-was-required-and-001-82084721",
+          "policy-p005-hospitalization-was-required-and-005-a605a238",
+          "policy-p009-pre-existing-diseases-will-not-be-co-002-2fbd1b6f",
+          "policy-p007-what-we-cover-003-311a53f5",
+          "policy-p005-pre-existing-diseases-means-any-cond-004-b2a3441c",
+          "policy-p004-hospital-means-any-institution-estab-009-a3886f2a",
+          "policy-p005-hospitalization-was-required-and-010-85ba6837",
+          "policy-p005-hospitalization-was-required-and-007-d2e3f555",
+          "policy-p005-hospitalization-was-required-and-015-e52b4509"
+        ],
+        "retry_count": 0
+      },
+      {
+        "agent": "PolicyEvidenceAgent",
+        "action": "hybrid_retrieve_fuse_rerank",
+        "elapsed_ms": 1.8714999969233759,
+        "brief_outcome": "Retrieved evidence for expense_limits",
+        "retrieval_query": "normal room boarding nursing per day Basic Sum Insured limit",
+        "result_count": 10,
+        "evidence_ids": [
+          "policy-p010-extensions-019-9cbac94e",
+          "policy-p007-what-we-cover-006-4cab0726",
+          "policy-p007-what-we-cover-005-33342bca",
+          "policy-p008-pre-existing-diseases-will-not-be-co-004-e7df43d0",
+          "policy-p007-what-we-cover-011-36365f6d",
+          "policy-p007-what-we-cover-004-7d1cdd8e",
+          "policy-p007-what-we-cover-012-85fb8baa",
+          "policy-p008-pre-existing-diseases-will-not-be-co-007-8b45c42d",
+          "policy-p005-hospitalization-was-required-and-010-85ba6837",
+          "policy-p008-pre-existing-diseases-will-not-be-co-005-116d1ace"
+        ],
+        "retry_count": 0
+      },
+      {
+        "agent": "PolicyEvidenceAgent",
+        "action": "hybrid_retrieve_fuse_rerank",
+        "elapsed_ms": 1.38639999931911,
+        "brief_outcome": "Retrieved evidence for expense_limits",
+        "retrieval_query": "medical practitioner anesthetist consultant surgeon fees Sum Insured limit",
+        "result_count": 10,
+        "evidence_ids": [
+          "policy-p007-what-we-cover-008-9f95a69b",
+          "policy-p008-pre-existing-diseases-will-not-be-co-006-49606a9e",
+          "policy-p007-what-we-cover-006-4cab0726",
+          "policy-p007-what-we-cover-011-36365f6d",
+          "policy-p011-hospitalization-if-and-when-we-may-r-004-3930eeef",
+          "policy-p007-what-we-cover-009-d74b4647",
+          "policy-p010-extensions-019-9cbac94e",
+          "policy-p005-hospitalization-was-required-and-012-8a23f6a4",
+          "policy-p007-what-we-cover-005-33342bca",
+          "policy-p007-what-we-cover-010-bec7e714"
+        ],
+        "retry_count": 0
+      },
+      {
+        "agent": "PolicyEvidenceAgent",
+        "action": "hybrid_retrieve_fuse_rerank",
+        "elapsed_ms": 2.3728000014671125,
+        "brief_outcome": "Retrieved evidence for expense_limits",
+        "retrieval_query": "anesthesia operation theatre medicines drugs diagnostics x-ray Sum Insured limit",
+        "result_count": 10,
+        "evidence_ids": [
+          "policy-p007-what-we-cover-009-d74b4647",
+          "policy-p009-pre-existing-diseases-will-not-be-co-021-13803bf4",
+          "policy-p007-what-we-cover-006-4cab0726",
+          "policy-p007-what-we-cover-011-36365f6d",
+          "policy-p010-extensions-019-9cbac94e",
+          "policy-p011-hospitalization-if-and-when-we-may-r-004-3930eeef",
+          "policy-p005-hospitalization-was-required-and-012-8a23f6a4",
+          "policy-p007-what-we-cover-008-9f95a69b",
+          "policy-p007-what-we-cover-005-33342bca",
+          "policy-p002-definitions-007-179b21eb"
+        ],
+        "retry_count": 0
+      },
+      {
+        "agent": "PolicyEvidenceAgent",
+        "action": "hybrid_retrieve_fuse_rerank",
+        "elapsed_ms": 1.315599998633843,
+        "brief_outcome": "Retrieved evidence for expense_limits",
+        "retrieval_query": "ambulance charges admissible claim Basic Sum Insured rupees limit",
+        "result_count": 10,
+        "evidence_ids": [
+          "policy-p008-pre-existing-diseases-will-not-be-co-005-116d1ace",
+          "policy-p010-extensions-019-9cbac94e",
+          "policy-p007-what-we-cover-006-4cab0726",
+          "policy-p007-what-we-cover-011-36365f6d",
+          "policy-p008-pre-existing-diseases-will-not-be-co-007-8b45c42d",
+          "policy-p002-definitions-006-b0692cf3",
+          "policy-p007-what-we-cover-012-85fb8baa",
+          "policy-p007-what-we-cover-005-33342bca",
+          "policy-p008-pre-existing-diseases-will-not-be-co-004-e7df43d0",
+          "policy-p011-hospitalization-if-and-when-we-may-r-004-3930eeef"
+        ],
+        "retry_count": 0
+      },
+      {
+        "agent": "PolicyEvidenceAgent",
+        "action": "hybrid_retrieve_fuse_rerank",
+        "elapsed_ms": 1.5681000004406087,
+        "brief_outcome": "Retrieved evidence for required_evidence",
+        "retrieval_query": "claims procedure bills receipts certificates information evidence medical practitioner hospital",
+        "result_count": 10,
+        "evidence_ids": [
+          "policy-p010-hospitalization-expenses-being-incur-021-68e16b0e",
+          "policy-p011-hospitalization-if-and-when-we-may-r-001-6d6031d4",
+          "policy-p004-hospital-means-any-institution-estab-007-258af735",
+          "policy-p005-hospitalization-was-required-and-013-98e1d18f",
+          "policy-p002-definitions-009-55f63d5c",
+          "policy-p010-claims-procedure-020-79770efd",
+          "policy-p004-hospital-means-any-institution-estab-002-936d1cd2",
+          "policy-p011-hospitalization-if-and-when-we-may-r-003-0eb56a1d",
+          "policy-p007-what-we-cover-010-bec7e714",
+          "policy-p007-what-we-cover-003-311a53f5"
+        ],
+        "retry_count": 0
+      },
+      {
+        "agent": "PolicyEvidenceAgent",
+        "action": "hybrid_retrieve_fuse_rerank",
+        "elapsed_ms": 1.4061000001674984,
+        "brief_outcome": "Retrieved evidence for hospital_eligibility",
+        "retrieval_query": "Hospital definition registered minimum criteria beds nursing medical practitioner operation theatre records",
+        "result_count": 10,
+        "evidence_ids": [
+          "policy-p003-hospital-means-any-institution-estab-005-74550526",
+          "policy-p002-definitions-009-55f63d5c",
+          "policy-p007-what-we-cover-013-5ae45cbf",
+          "policy-p004-hospital-means-any-institution-estab-004-c747fb83",
+          "policy-p003-hospitalization-means-admission-in-a-004-8bfbd255",
+          "policy-p004-hospital-means-any-institution-estab-002-936d1cd2",
+          "policy-p001-definitions-006-0e76ea91",
+          "policy-p007-what-we-cover-007-e43f04a8",
+          "policy-p007-what-we-cover-004-7d1cdd8e",
+          "policy-p007-what-we-cover-010-bec7e714"
+        ],
+        "retry_count": 0
+      },
+      {
+        "agent": "PolicyEvidenceAgent",
+        "action": "hybrid_retrieve_fuse_rerank",
+        "elapsed_ms": 1.02119999792194,
+        "brief_outcome": "Retrieved evidence for experimental_exclusion",
+        "retrieval_query": "unproven experimental treatment not approved excluded",
+        "result_count": 10,
+        "evidence_ids": [
+          "policy-p006-hospitalization-was-required-and-001-82084721",
+          "policy-p010-pre-existing-diseases-will-not-be-co-003-84746330",
+          "policy-p009-pre-existing-diseases-will-not-be-co-016-f0f349d3",
+          "policy-p010-pre-existing-diseases-will-not-be-co-008-673b8c71",
+          "policy-p002-day-care-treatment-refers-to-medical-010-5ee07a70",
+          "policy-p001-definitions-009-f1e7abe3",
+          "policy-p009-pre-existing-diseases-will-not-be-co-020-3389cc07",
+          "policy-p010-pre-existing-diseases-will-not-be-co-017-f1f402a2",
+          "policy-p002-definitions-008-129b871f",
+          "policy-p005-hospitalization-was-required-and-007-d2e3f555"
+        ],
+        "retry_count": 0
+      },
+      {
+        "agent": "CoverageExclusionAgent",
+        "action": "apply_policy_evidence_contract",
+        "elapsed_ms": 1.3288999980431981,
+        "brief_outcome": "Produced 7 grounded findings",
+        "retrieval_query": null,
+        "result_count": null,
+        "evidence_ids": [
+          "policy-p002-definitions-009-55f63d5c",
+          "policy-p003-hospital-means-any-institution-estab-005-74550526",
+          "policy-p006-hospitalization-was-required-and-001-82084721",
+          "policy-p007-what-we-cover-003-311a53f5",
+          "policy-p007-what-we-cover-005-33342bca",
+          "policy-p007-what-we-cover-008-9f95a69b",
+          "policy-p007-what-we-cover-009-d74b4647",
+          "policy-p007-what-we-cover-013-5ae45cbf",
+          "policy-p008-pre-existing-diseases-will-not-be-co-005-116d1ace",
+          "policy-p010-pre-existing-diseases-will-not-be-co-003-84746330"
+        ],
+        "retry_count": 0
+      },
+      {
+        "agent": "DecisionAgent",
+        "action": "synthesize_structured_decision",
+        "elapsed_ms": 0.07410000034724362,
+        "brief_outcome": "Drafted NOT_ADMISSIBLE",
+        "retrieval_query": null,
+        "result_count": null,
+        "evidence_ids": [
+          "policy-p007-what-we-cover-003-311a53f5",
+          "policy-p003-hospital-means-any-institution-estab-005-74550526",
+          "policy-p006-hospitalization-was-required-and-001-82084721",
+          "policy-p007-what-we-cover-005-33342bca",
+          "policy-p007-what-we-cover-008-9f95a69b",
+          "policy-p007-what-we-cover-009-d74b4647",
+          "policy-p008-pre-existing-diseases-will-not-be-co-005-116d1ace"
+        ],
+        "retry_count": 0
+      },
+      {
+        "agent": "ValidationAgent",
+        "action": "validate_claims_citations_and_numbers",
+        "elapsed_ms": 0.17830000069807284,
+        "brief_outcome": "PASS",
+        "retrieval_query": null,
+        "result_count": null,
+        "evidence_ids": [],
+        "retry_count": 0
+      }
+    ],
+    "disclaimer": "Prototype decision support only; formal claim adjudication remains with the insurer."
+  },
+  {
+    "case_id": "CAND-005",
+    "decision": "NEEDS_REVIEW",
+    "confidence": 0.7,
+    "key_findings": [
+      {
+        "finding_id": "F-001",
+        "dimension": "coverage",
+        "finding": "The policy covers reasonable and customary hospitalization expenses when hospitalization is medically advised.",
+        "status": "SUPPORTED",
+        "evidence_chunk_ids": [
+          "policy-p007-what-we-cover-013-5ae45cbf",
+          "policy-p007-what-we-cover-006-4cab0726"
+        ],
+        "policy_pages": [
+          7
+        ],
+        "certainty": 0.9,
+        "missing_evidence": []
+      },
+      {
+        "finding_id": "F-002",
+        "dimension": "hospital_eligibility",
+        "finding": "The policy requires a Hospital to be registered or meet its minimum criteria; the case identifies a network provider and no contrary evidence.",
+        "status": "SUPPORTED",
+        "evidence_chunk_ids": [
+          "policy-p003-hospital-means-any-institution-estab-005-74550526",
+          "policy-p002-definitions-009-55f63d5c"
+        ],
+        "policy_pages": [
+          2,
+          3
+        ],
+        "certainty": 0.9,
+        "missing_evidence": []
+      },
+      {
+        "finding_id": "F-003",
+        "dimension": "day_care",
+        "finding": "A sub-24-hour procedure may qualify where it is a specified treatment or meets the technological-advancement conditions.",
+        "status": "UNCERTAIN",
+        "evidence_chunk_ids": [
+          "policy-p002-day-care-treatment-refers-to-medical-010-5ee07a70",
+          "policy-p008-pre-existing-diseases-will-not-be-co-002-b73cdcb3"
+        ],
+        "policy_pages": [
+          2,
+          8
+        ],
+        "certainty": 0.35,
+        "missing_evidence": [
+          "Evidence that the sub-24-hour procedure meets the policy's day-care conditions"
+        ]
+      },
+      {
+        "finding_id": "F-004",
+        "dimension": "expense_limits",
+        "finding": "Normal room expense is limited to 1% of Basic Sum Insured per day.",
+        "status": "SUPPORTED",
+        "evidence_chunk_ids": [
+          "policy-p007-what-we-cover-005-33342bca",
+          "policy-p008-pre-existing-diseases-will-not-be-co-005-116d1ace"
+        ],
+        "policy_pages": [
+          7,
+          8
+        ],
+        "certainty": 0.9,
+        "missing_evidence": []
+      },
+      {
+        "finding_id": "F-005",
+        "dimension": "expense_limits",
+        "finding": "Medical practitioner, consultant, anesthetist, and surgeon fees are limited to 25% of Sum Insured.",
+        "status": "SUPPORTED",
+        "evidence_chunk_ids": [
+          "policy-p007-what-we-cover-008-9f95a69b",
+          "policy-p007-what-we-cover-009-d74b4647"
+        ],
+        "policy_pages": [
+          7
+        ],
+        "certainty": 0.9,
+        "missing_evidence": []
+      },
+      {
+        "finding_id": "F-006",
+        "dimension": "expense_limits",
+        "finding": "Medicines, diagnostics, operation theatre and similar listed expenses are limited to 40% of Sum Insured.",
+        "status": "SUPPORTED",
+        "evidence_chunk_ids": [
+          "policy-p007-what-we-cover-009-d74b4647",
+          "policy-p008-pre-existing-diseases-will-not-be-co-005-116d1ace"
+        ],
+        "policy_pages": [
+          7,
+          8
+        ],
+        "certainty": 0.9,
+        "missing_evidence": []
+      },
+      {
+        "finding_id": "F-007",
+        "dimension": "expense_limits",
+        "finding": "Ambulance expense for an admissible claim is limited to the lower of 1% of Basic Sum Insured or INR 1,000.",
+        "status": "SUPPORTED",
+        "evidence_chunk_ids": [
+          "policy-p008-pre-existing-diseases-will-not-be-co-005-116d1ace",
+          "policy-p007-what-we-cover-005-33342bca"
+        ],
+        "policy_pages": [
+          7,
+          8
+        ],
+        "certainty": 0.9,
+        "missing_evidence": []
+      }
+    ],
+    "applicable_limits": [],
+    "deductions": [],
+    "estimated_payable_inr": null,
+    "missing_evidence": [
+      "Evidence that the sub-24-hour procedure meets the policy's day-care conditions"
+    ],
+    "citations": [
+      {
+        "claim": "The policy covers reasonable and customary hospitalization expenses when hospitalization is medically advised.",
+        "source": "USGIC-CSCIndividualHealthInsurance_2017-2018.pdf",
+        "page": 7,
+        "section": "SCOPE OF COVER",
+        "chunk_id": "policy-p007-what-we-cover-013-5ae45cbf",
+        "excerpt": "NB4: The hospitalisation treatment of In sured Person as inpatient in the Hospital/Nursing Home for a minimum period of 24 hours for specific treatment like Dialysis, Chemotherapy, Radiotherapy, Eye Surgery, Lithotripsy, Tonsillectomy or D&C(medical expenses for 140 Day Care Procedures enlisted in the Annexure to this Policy Wordings) shall also be covered u"
+      },
+      {
+        "claim": "The policy requires a Hospital to be registered or meet its minimum criteria; the case identifies a network provider and no contrary evidence.",
+        "source": "USGIC-CSCIndividualHealthInsurance_2017-2018.pdf",
+        "page": 3,
+        "section": "DEFINITIONS",
+        "chunk_id": "policy-p003-hospital-means-any-institution-estab-005-74550526",
+        "excerpt": "Hospital means any institution established for in -patient care and Day Care Treatment of Illness and/or Injuries and which has been registered as a Hospital wit h the local authorities under the Clinical Establishments (Registration and Regulation) Act, 2010 or under the enactments specified under the Schedule of Section 56(1) of the said Act OR complies wi"
+      },
+      {
+        "claim": "A sub-24-hour procedure may qualify where it is a specified treatment or meets the technological-advancement conditions.",
+        "source": "USGIC-CSCIndividualHealthInsurance_2017-2018.pdf",
+        "page": 2,
+        "section": "DEFINITIONS",
+        "chunk_id": "policy-p002-day-care-treatment-refers-to-medical-010-5ee07a70",
+        "excerpt": "Day care treatment refers to medical treatment, and/or surgical procedure which is: i. undertaken under General or Local Anesthesia in a hospital/day care centre in less than 24 hrs because of technological advancement, and ii. which would have otherwise required a hospitalization of more than 24 hours. Treatment normally taken on an out-patient basis is not"
+      },
+      {
+        "claim": "Normal room expense is limited to 1% of Basic Sum Insured per day.",
+        "source": "USGIC-CSCIndividualHealthInsurance_2017-2018.pdf",
+        "page": 7,
+        "section": "SCOPE OF COVER",
+        "chunk_id": "policy-p007-what-we-cover-005-33342bca",
+        "excerpt": "a) Normal Room expenses: 1.0% of Basic Sum Insured."
+      },
+      {
+        "claim": "Medical practitioner, consultant, anesthetist, and surgeon fees are limited to 25% of Sum Insured.",
+        "source": "USGIC-CSCIndividualHealthInsurance_2017-2018.pdf",
+        "page": 7,
+        "section": "SCOPE OF COVER",
+        "chunk_id": "policy-p007-what-we-cover-008-9f95a69b",
+        "excerpt": "2. Medical Practitioner/ Anesthetist, Consultant fees, Surgeons fees and similar expenses subject to a limit of 25% of Sum Assured."
+      },
+      {
+        "claim": "Medicines, diagnostics, operation theatre and similar listed expenses are limited to 40% of Sum Insured.",
+        "source": "USGIC-CSCIndividualHealthInsurance_2017-2018.pdf",
+        "page": 7,
+        "section": "SCOPE OF COVER",
+        "chunk_id": "policy-p007-what-we-cover-009-d74b4647",
+        "excerpt": "3. Expenses on Anesthesia, Blood, Oxygen, Operation Th eatre, Surgical Appliances, Medicines and Drugs, Diagnostic Materials and X -ray, Dialysis, Chemotherapy, Radiotherapy, Cost of Pacemaker, Artificial Limbs, Cost of Organs and similar expenses subject to a limit of 40% Sum Insured ."
+      },
+      {
+        "claim": "Ambulance expense for an admissible claim is limited to the lower of 1% of Basic Sum Insured or INR 1,000.",
+        "source": "USGIC-CSCIndividualHealthInsurance_2017-2018.pdf",
+        "page": 8,
+        "section": "WHAT WE EXCLUDE",
+        "chunk_id": "policy-p008-pre-existing-diseases-will-not-be-co-005-116d1ace",
+        "excerpt": "b) Ambulance charges in connection with any admissible claim limited to 1.0% of the Basic Sum Insured or Rupees 1000/- whichever is less for each claim."
+      }
+    ],
+    "next_action": "Obtain the listed missing evidence and rerun the analysis.",
+    "reason_code": "INSUFFICIENT_EVIDENCE",
+    "validation": {
+      "status": "PASS",
+      "unsupported_claims": [],
+      "invalid_citations": [],
+      "numeric_mismatches": [],
+      "revision_required": false
+    },
+    "trace": [
+      {
+        "agent": "CaseAnalysisAgent",
+        "action": "normalize_case_and_plan",
+        "elapsed_ms": 0.05279999822960235,
+        "brief_outcome": "Created 8 focused retrieval queries",
+        "retrieval_query": null,
+        "result_count": null,
+        "evidence_ids": [],
+        "retry_count": 0
+      },
+      {
+        "agent": "PolicyEvidenceAgent",
+        "action": "hybrid_retrieve_fuse_rerank",
+        "elapsed_ms": 1.2126000001444481,
+        "brief_outcome": "Retrieved evidence for coverage",
+        "retrieval_query": "hospitalization covered expenses day_care Minor procedure",
+        "result_count": 10,
+        "evidence_ids": [
+          "policy-p002-day-care-treatment-refers-to-medical-010-5ee07a70",
+          "policy-p007-what-we-cover-013-5ae45cbf",
+          "policy-p005-hospitalization-was-required-and-013-98e1d18f",
+          "policy-p007-what-we-cover-006-4cab0726",
+          "policy-p004-hospital-means-any-institution-estab-009-a3886f2a",
+          "policy-p003-hospital-means-any-institution-estab-010-39ec1daf",
+          "policy-p005-hospitalization-was-required-and-010-85ba6837",
+          "policy-p005-hospital-means-any-institution-estab-001-708176c8",
+          "policy-p002-day-care-treatment-refers-to-medical-011-1c8f88bd",
+          "policy-p004-hospital-means-any-institution-estab-002-936d1cd2"
+        ],
+        "retry_count": 0
+      },
+      {
+        "agent": "PolicyEvidenceAgent",
+        "action": "hybrid_retrieve_fuse_rerank",
+        "elapsed_ms": 1.1899000019184314,
+        "brief_outcome": "Retrieved evidence for expense_limits",
+        "retrieval_query": "normal room boarding nursing per day Basic Sum Insured limit",
+        "result_count": 10,
+        "evidence_ids": [
+          "policy-p010-extensions-019-9cbac94e",
+          "policy-p007-what-we-cover-006-4cab0726",
+          "policy-p007-what-we-cover-005-33342bca",
+          "policy-p008-pre-existing-diseases-will-not-be-co-004-e7df43d0",
+          "policy-p007-what-we-cover-011-36365f6d",
+          "policy-p007-what-we-cover-004-7d1cdd8e",
+          "policy-p007-what-we-cover-012-85fb8baa",
+          "policy-p008-pre-existing-diseases-will-not-be-co-007-8b45c42d",
+          "policy-p005-hospitalization-was-required-and-010-85ba6837",
+          "policy-p008-pre-existing-diseases-will-not-be-co-005-116d1ace"
+        ],
+        "retry_count": 0
+      },
+      {
+        "agent": "PolicyEvidenceAgent",
+        "action": "hybrid_retrieve_fuse_rerank",
+        "elapsed_ms": 1.584599998750491,
+        "brief_outcome": "Retrieved evidence for expense_limits",
+        "retrieval_query": "medical practitioner anesthetist consultant surgeon fees Sum Insured limit",
+        "result_count": 10,
+        "evidence_ids": [
+          "policy-p007-what-we-cover-008-9f95a69b",
+          "policy-p008-pre-existing-diseases-will-not-be-co-006-49606a9e",
+          "policy-p007-what-we-cover-006-4cab0726",
+          "policy-p007-what-we-cover-011-36365f6d",
+          "policy-p011-hospitalization-if-and-when-we-may-r-004-3930eeef",
+          "policy-p007-what-we-cover-009-d74b4647",
+          "policy-p010-extensions-019-9cbac94e",
+          "policy-p005-hospitalization-was-required-and-012-8a23f6a4",
+          "policy-p007-what-we-cover-005-33342bca",
+          "policy-p007-what-we-cover-010-bec7e714"
+        ],
+        "retry_count": 0
+      },
+      {
+        "agent": "PolicyEvidenceAgent",
+        "action": "hybrid_retrieve_fuse_rerank",
+        "elapsed_ms": 1.2309999983699527,
+        "brief_outcome": "Retrieved evidence for expense_limits",
+        "retrieval_query": "anesthesia operation theatre medicines drugs diagnostics x-ray Sum Insured limit",
+        "result_count": 10,
+        "evidence_ids": [
+          "policy-p007-what-we-cover-009-d74b4647",
+          "policy-p009-pre-existing-diseases-will-not-be-co-021-13803bf4",
+          "policy-p007-what-we-cover-006-4cab0726",
+          "policy-p007-what-we-cover-011-36365f6d",
+          "policy-p010-extensions-019-9cbac94e",
+          "policy-p011-hospitalization-if-and-when-we-may-r-004-3930eeef",
+          "policy-p005-hospitalization-was-required-and-012-8a23f6a4",
+          "policy-p007-what-we-cover-008-9f95a69b",
+          "policy-p007-what-we-cover-005-33342bca",
+          "policy-p002-definitions-007-179b21eb"
+        ],
+        "retry_count": 0
+      },
+      {
+        "agent": "PolicyEvidenceAgent",
+        "action": "hybrid_retrieve_fuse_rerank",
+        "elapsed_ms": 1.1451999998826068,
+        "brief_outcome": "Retrieved evidence for expense_limits",
+        "retrieval_query": "ambulance charges admissible claim Basic Sum Insured rupees limit",
+        "result_count": 10,
+        "evidence_ids": [
+          "policy-p008-pre-existing-diseases-will-not-be-co-005-116d1ace",
+          "policy-p010-extensions-019-9cbac94e",
+          "policy-p007-what-we-cover-006-4cab0726",
+          "policy-p007-what-we-cover-011-36365f6d",
+          "policy-p008-pre-existing-diseases-will-not-be-co-007-8b45c42d",
+          "policy-p002-definitions-006-b0692cf3",
+          "policy-p007-what-we-cover-012-85fb8baa",
+          "policy-p007-what-we-cover-005-33342bca",
+          "policy-p008-pre-existing-diseases-will-not-be-co-004-e7df43d0",
+          "policy-p011-hospitalization-if-and-when-we-may-r-004-3930eeef"
+        ],
+        "retry_count": 0
+      },
+      {
+        "agent": "PolicyEvidenceAgent",
+        "action": "hybrid_retrieve_fuse_rerank",
+        "elapsed_ms": 1.93089999811491,
+        "brief_outcome": "Retrieved evidence for required_evidence",
+        "retrieval_query": "claims procedure bills receipts certificates information evidence medical practitioner hospital",
+        "result_count": 10,
+        "evidence_ids": [
+          "policy-p010-hospitalization-expenses-being-incur-021-68e16b0e",
+          "policy-p011-hospitalization-if-and-when-we-may-r-001-6d6031d4",
+          "policy-p004-hospital-means-any-institution-estab-007-258af735",
+          "policy-p005-hospitalization-was-required-and-013-98e1d18f",
+          "policy-p002-definitions-009-55f63d5c",
+          "policy-p010-claims-procedure-020-79770efd",
+          "policy-p004-hospital-means-any-institution-estab-002-936d1cd2",
+          "policy-p011-hospitalization-if-and-when-we-may-r-003-0eb56a1d",
+          "policy-p007-what-we-cover-010-bec7e714",
+          "policy-p007-what-we-cover-003-311a53f5"
+        ],
+        "retry_count": 0
+      },
+      {
+        "agent": "PolicyEvidenceAgent",
+        "action": "hybrid_retrieve_fuse_rerank",
+        "elapsed_ms": 2.6742999980342574,
+        "brief_outcome": "Retrieved evidence for hospital_eligibility",
+        "retrieval_query": "Hospital definition registered minimum criteria beds nursing medical practitioner operation theatre records",
+        "result_count": 10,
+        "evidence_ids": [
+          "policy-p003-hospital-means-any-institution-estab-005-74550526",
+          "policy-p002-definitions-009-55f63d5c",
+          "policy-p007-what-we-cover-013-5ae45cbf",
+          "policy-p004-hospital-means-any-institution-estab-004-c747fb83",
+          "policy-p003-hospitalization-means-admission-in-a-004-8bfbd255",
+          "policy-p004-hospital-means-any-institution-estab-002-936d1cd2",
+          "policy-p001-definitions-006-0e76ea91",
+          "policy-p007-what-we-cover-007-e43f04a8",
+          "policy-p007-what-we-cover-004-7d1cdd8e",
+          "policy-p007-what-we-cover-010-bec7e714"
+        ],
+        "retry_count": 0
+      },
+      {
+        "agent": "PolicyEvidenceAgent",
+        "action": "hybrid_retrieve_fuse_rerank",
+        "elapsed_ms": 1.6079000015452038,
+        "brief_outcome": "Retrieved evidence for day_care",
+        "retrieval_query": "day care treatment less than 24 hours technological advancement Minor procedure Unlisted condition",
+        "result_count": 10,
+        "evidence_ids": [
+          "policy-p002-day-care-treatment-refers-to-medical-010-5ee07a70",
+          "policy-p007-what-we-cover-013-5ae45cbf",
+          "policy-p003-hospitalization-means-admission-in-a-004-8bfbd255",
+          "policy-p003-hospital-means-any-institution-estab-010-39ec1daf",
+          "policy-p003-hospital-means-any-institution-estab-005-74550526",
+          "policy-p008-pre-existing-diseases-will-not-be-co-002-b73cdcb3",
+          "policy-p004-hospital-means-any-institution-estab-001-f4bac7a5",
+          "policy-p005-hospitalization-was-required-and-010-85ba6837",
+          "policy-p005-hospitalization-was-required-and-013-98e1d18f",
+          "policy-p005-hospital-means-any-institution-estab-001-708176c8"
+        ],
+        "retry_count": 0
+      },
+      {
+        "agent": "CoverageExclusionAgent",
+        "action": "apply_policy_evidence_contract",
+        "elapsed_ms": 1.3152999999874737,
+        "brief_outcome": "Produced 7 grounded findings",
+        "retrieval_query": null,
+        "result_count": null,
+        "evidence_ids": [
+          "policy-p002-day-care-treatment-refers-to-medical-010-5ee07a70",
+          "policy-p002-definitions-009-55f63d5c",
+          "policy-p003-hospital-means-any-institution-estab-005-74550526",
+          "policy-p007-what-we-cover-005-33342bca",
+          "policy-p007-what-we-cover-006-4cab0726",
+          "policy-p007-what-we-cover-008-9f95a69b",
+          "policy-p007-what-we-cover-009-d74b4647",
+          "policy-p007-what-we-cover-013-5ae45cbf",
+          "policy-p008-pre-existing-diseases-will-not-be-co-002-b73cdcb3",
+          "policy-p008-pre-existing-diseases-will-not-be-co-005-116d1ace"
+        ],
+        "retry_count": 0
+      },
+      {
+        "agent": "DecisionAgent",
+        "action": "synthesize_structured_decision",
+        "elapsed_ms": 0.0698000003467314,
+        "brief_outcome": "Drafted NEEDS_REVIEW",
+        "retrieval_query": null,
+        "result_count": null,
+        "evidence_ids": [
+          "policy-p007-what-we-cover-013-5ae45cbf",
+          "policy-p003-hospital-means-any-institution-estab-005-74550526",
+          "policy-p002-day-care-treatment-refers-to-medical-010-5ee07a70",
+          "policy-p007-what-we-cover-005-33342bca",
+          "policy-p007-what-we-cover-008-9f95a69b",
+          "policy-p007-what-we-cover-009-d74b4647",
+          "policy-p008-pre-existing-diseases-will-not-be-co-005-116d1ace"
+        ],
+        "retry_count": 0
+      },
+      {
+        "agent": "ValidationAgent",
+        "action": "validate_claims_citations_and_numbers",
+        "elapsed_ms": 0.21850000121048652,
+        "brief_outcome": "PASS",
+        "retrieval_query": null,
+        "result_count": null,
+        "evidence_ids": [],
+        "retry_count": 0
+      }
+    ],
+    "disclaimer": "Prototype decision support only; formal claim adjudication remains with the insurer."
+  }
+]

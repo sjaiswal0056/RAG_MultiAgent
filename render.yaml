@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: policy-aware-claim-api
+    runtime: docker
+    plan: free
+    healthCheckPath: /health
+    envVars:
+      - key: LOG_LEVEL
+        value: INFO
+      - key: EMBEDDING_BACKEND
+        value: lsa

@@ -1,0 +1,29 @@
+{
+  "case_id": "EXAMPLE-001",
+  "policy_id": "USGIC-CSC-2017-2018",
+  "policy_start_date": "2025-01-01",
+  "claim_date": "2026-03-14",
+  "sum_insured_inr": 500000,
+  "continuous_coverage_months": 14,
+  "prior_insurer_continuous_years": 0,
+  "patient": {"age": 34},
+  "hospital": {"name": "Example Hospital", "network_provider": true},
+  "treatment": {
+    "type": "inpatient",
+    "admission_hours": 96,
+    "diagnosis": "Acute condition",
+    "procedure": "Hospital treatment",
+    "pre_existing": false,
+    "experimental": false
+  },
+  "expenses_inr": {
+    "room": 30000,
+    "doctor_fees": 30000,
+    "medicines_diagnostics": 90000,
+    "pre_hospitalization": 5000,
+    "post_hospitalization": 7000,
+    "ambulance": 1200
+  },
+  "documents": ["claim_form", "discharge_summary", "itemized_bill", "doctor_prescription"],
+  "task": "Determine admissibility, limits, and deductions."
+}

@@ -1,0 +1,19 @@
+{
+  "PUB-001": {"decision": "ADMISSIBLE_WITH_LIMITS", "evidence_terms": [["hospitalization expenses"], ["25%", "40%"]]},
+  "PUB-002": {"decision": "NOT_ADMISSIBLE", "evidence_terms": [["30 days waiting period"]]},
+  "PUB-003": {"decision": "NOT_ADMISSIBLE", "evidence_terms": [["48 months"]]},
+  "PUB-004": {"decision": "NEEDS_REVIEW", "evidence_terms": [["domiciliary"], ["three days", "20%"]]},
+  "PUB-005": {"decision": "ADMISSIBLE_WITH_LIMITS", "evidence_terms": [["eye surgery", "less than 24"]]},
+  "PUB-006": {"decision": "NEEDS_REVIEW", "evidence_terms": [["medically necessary", "evidences"]]},
+  "PUB-007": {"decision": "ADMISSIBLE_WITH_LIMITS", "evidence_terms": [["25%", "40%"]]},
+  "PUB-008": {"decision": "NOT_ADMISSIBLE", "evidence_terms": [["cosmetic", "aesthetic"]]},
+  "PUB-009": {"decision": "ADMISSIBLE_WITH_LIMITS", "evidence_terms": [["30 days"], ["60 days"]]},
+  "PUB-010": {"decision": "ADMISSIBLE_WITH_LIMITS", "evidence_terms": [["at least 1 year", "database and claim history"]]},
+  "PUB-011": {"decision": "NEEDS_REVIEW", "evidence_terms": [["minimum criteria", "registered"]]},
+  "PUB-012": {"decision": "NOT_ADMISSIBLE", "evidence_terms": [["unproven", "experimental"]]},
+  "CAND-001": {"decision": "ADMISSIBLE_WITH_LIMITS", "evidence_terms": [["ambulance"], ["25%", "40%"]]},
+  "CAND-002": {"decision": "NOT_ADMISSIBLE", "evidence_terms": [["30 days waiting period"]]},
+  "CAND-003": {"decision": "NEEDS_REVIEW", "evidence_terms": [["minimum criteria", "registered"]]},
+  "CAND-004": {"decision": "NOT_ADMISSIBLE", "evidence_terms": [["unproven", "experimental"]]},
+  "CAND-005": {"decision": "NEEDS_REVIEW", "evidence_terms": [["day care treatment", "less than 24"]]}
+}
